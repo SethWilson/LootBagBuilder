@@ -10,7 +10,11 @@
 
 
 @interface PartyDetailsViewController : UIViewController {
-
+	NSArray *partyDetailActions;
+	
+	
 }
+
+@property (nonatomic, retain) NSArray *partyDetailActions;
 
 @end

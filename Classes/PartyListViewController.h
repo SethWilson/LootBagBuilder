@@ -11,6 +11,10 @@
 
 @interface PartyListViewController : UITableViewController {
 
+	NSArray *tmpPartyList;
+	
+	
 }
 
+@property (nonatomic, retain) NSArray *tmpPartyList;
 @end

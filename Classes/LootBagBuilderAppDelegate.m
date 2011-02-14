@@ -13,7 +13,7 @@
 
 @synthesize window;
 @synthesize tabBarController;
-
+@synthesize splashView;
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -25,7 +25,13 @@
     // Add the tab bar controller's view to the window and display.
     [window addSubview:tabBarController.view];
     [window makeKeyAndVisible];
-
+	[[UIApplication sharedApplication] setStatusBarHidden:NO];
+	
+	splashView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+	splashView.image = [UIImage imageNamed:@"Default.png"];
+	[window addSubview:splashView];
+	[window bringSubviewToFront:splashView];
+	[self performSelector:@selector(removeSplash) withObject:nil afterDelay:1.5];
     return YES;
 }
 
@@ -83,6 +89,12 @@
 }
 */
 
+
+-(void)removeSplash;
+{
+	[splashView removeFromSuperview];
+	[splashView release];
+}
 
 #pragma mark -
 #pragma mark Memory management

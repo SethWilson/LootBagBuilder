@@ -10,7 +10,7 @@
 #import "PartyDetailsViewController.h"
 
 @implementation PartyListViewController
-
+@synthesize tmpPartyList;
 
 #pragma mark -
 #pragma mark View lifecycle
@@ -30,6 +30,9 @@
 	UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem: UIBarButtonSystemItemAdd target: self action: @selector(addPressed)];
 	self.navigationItem.rightBarButtonItem = addButton;
 	[addButton release]; 
+	
+	[self setTmpPartyList:[NSArray arrayWithObjects:@"Aidan", @"Carter", @"Trish",@"Seth",nil]];
+
 }
 
 /*
@@ -64,6 +67,14 @@
 #pragma mark -
 #pragma mark Table view data source
 
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+
+{
+	
+	return @"Parties";
+	
+}
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
     return 1;
@@ -72,7 +83,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return 2;
+    return [self.tmpPartyList count];
 }
 
 
@@ -83,10 +94,10 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellEditingStyleDelete reuseIdentifier:CellIdentifier] autorelease];
     }
 	
-	cell.textLabel.text = [NSString stringWithFormat: @"Party %i", indexPath.row ];
+	cell.textLabel.text = [self.tmpPartyList objectAtIndex:indexPath.row ];
     
     // Configure the cell...
     
@@ -94,13 +105,13 @@
 }
 
 
-/*
+
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
     // Return NO if you do not want the specified item to be editable.
     return YES;
 }
-*/
+
 
 
 /*
@@ -132,6 +143,7 @@
     return YES;
 }
 */
+
 
 
 #pragma mark -
