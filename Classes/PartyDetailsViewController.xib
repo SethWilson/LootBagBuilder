@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="6"/>
+			<integer value="1"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -42,7 +42,7 @@
 				<int key="NSvFlags">274</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="IBUITableView" id="803735567">
+					<object class="IBUITableView" id="489743697">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">274</int>
 						<string key="NSFrameSize">{320, 460}</string>
@@ -107,7 +107,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">dataSource</string>
-						<reference key="source" ref="803735567"/>
+						<reference key="source" ref="489743697"/>
 						<reference key="destination" ref="372490531"/>
 					</object>
 					<int key="connectionID">8</int>
@@ -115,7 +115,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">delegate</string>
-						<reference key="source" ref="803735567"/>
+						<reference key="source" ref="489743697"/>
 						<reference key="destination" ref="372490531"/>
 					</object>
 					<int key="connectionID">9</int>
@@ -124,7 +124,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">view</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="803735567"/>
+						<reference key="destination" ref="489743697"/>
 					</object>
 					<int key="connectionID">10</int>
 				</object>
@@ -143,7 +143,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 						<reference key="object" ref="191373211"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="803735567"/>
+							<reference ref="489743697"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -160,7 +160,10 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">6</int>
-						<reference key="object" ref="803735567"/>
+						<reference key="object" ref="489743697"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+						</object>
 						<reference key="parent" ref="191373211"/>
 					</object>
 				</object>
@@ -180,11 +183,11 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>PartyDetailsViewController</string>
 					<string>UIResponder</string>
-					<string>{{901, 302}, {320, 480}}</string>
+					<string>{{657, 370}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<object class="NSAffineTransform">
-						<bytes key="NSTransformStruct">P4AAAL+AAABB6AAAw6MAAA</bytes>
+						<bytes key="NSTransformStruct">P4AAAL+AAAAAAAAAw+UAAA</bytes>
 					</object>
 				</object>
 			</object>
@@ -204,7 +207,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">10</int>
+			<int key="maxID">12</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">

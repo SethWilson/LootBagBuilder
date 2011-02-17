@@ -1,7 +1,7 @@
 TLootBagBuilder
 v7
 r0
-t319412616.214008
+t319671311.040655
 cCheck dependencies
 cProcessInfoPlistFile /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/Info.plist LootBagBuilder-Info.plist
 cCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/MainWindow.xib
@@ -9,7 +9,10 @@ cCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/OrderViewController.xi
 cCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyListViewController.xib
 cCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDetailsViewController.xib
 cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/Default.png Default.png
-cCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateView.xib
+cCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateViewController.xib
+cCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyForViewController.xib
+cCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.xib
+cCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.xib
 cProcessPCH /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch.gch LootBagBuilder_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/main.o /Users/seth/Code/Cocoa/LootBagBuilder/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/LootBagBuilderAppDelegate.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/LootBagBuilderAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -17,6 +20,9 @@ cCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/
 cCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyListViewController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyListViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyDetailsViewController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDetailsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyDateViewController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyForViewController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyForViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyAttendeesViewController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/AddPartyGoerController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder normal i386
 cGenerateDSYMFile /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app.dSYM /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder
 cTouch /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app
@@ -51,6 +57,40 @@ c000000004C6242840000000001E228C0
 t1281507972
 s31598784
 
+N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoer.h
+c000000004D5AE68700000000000000E3
+t1297802887
+s227
+i<UIKit/UIKit.h>
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoer.m
+c000000004D5AE6870000000000000597
+t1297802887
+s1431
+i"AddPartyGoer.h"
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoer.xib
+c000000004D5AE687000000000000185F
+t1297802887
+s6239
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.h
+c000000004D5D8659000000000000018C
+t1297974873
+s396
+i<UIKit/UIKit.h>
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m
+c000000004D5D868500000000000007A8
+t1297974917
+s1960
+i"AddPartyGoerController.h"
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.xib
+c000000004D5D876C0000000000007532
+t1297975148
+s30002
+
 N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/LootBagBuilderAppDelegate.h
 c000000004D596B69000000000000025E
 t1297705833
@@ -80,22 +120,45 @@ c000000004D55631200000000000041C0
 t1297441554
 s16832
 
+N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.h
+c000000004D5D84FC00000000000001CE
+t1297974524
+s462
+i<UIKit/UIKit.h>
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m
+c000000004D5D856600000000000015E5
+t1297974630
+s5605
+i"PartyAttendeesViewController.h"
+i"AddPartyGoerController.h"
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.xib
+c000000004D5ADB730000000000004260
+t1297800051
+s16992
+
 N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateView.xib
-c000000004D59A03F0000000000001643
-t1297719359
-s5699
+c000000004D5AD4A10000000000003438
+t1297798305
+s13368
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateViewController.h
-c000000004D59A0FF00000000000000F9
-t1297719551
-s249
+c000000004D5D7AEA00000000000001D1
+t1297971946
+s465
 i<UIKit/UIKit.h>
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateViewController.m
-c000000004D59A19D0000000000000750
-t1297719709
-s1872
+c000000004D5D7B95000000000000092D
+t1297972117
+s2349
 i"PartyDateViewController.h"
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateViewController.xib
+c000000004D5D7B450000000000005BEE
+t1297972037
+s23534
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDetailsViewController.h
 c000000004D598DD7000000000000015C
@@ -104,16 +167,35 @@ s348
 i<UIKit/UIKit.h>
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDetailsViewController.m
-c000000004D59A20300000000000014D9
-t1297719811
-s5337
+c000000004D5AE91900000000000016D0
+t1297803545
+s5840
 i"PartyDetailsViewController.h"
 i"PartyDateViewController.h"
+i"PartyForViewController.h"
+i"PartyAttendeesViewController.h"
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDetailsViewController.xib
-c000000004D5990CA0000000000004B4C
-t1297715402
-s19276
+c000000004D5BF5060000000000004BC3
+t1297872134
+s19395
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyForViewController.h
+c000000004D5D6F37000000000000021D
+t1297968951
+s541
+i<UIKit/UIKit.h>
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyForViewController.m
+c000000004D5D747700000000000009FD
+t1297970295
+s2557
+i"PartyForViewController.h"
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyForViewController.xib
+c000000004D5D6FE40000000000006312
+t1297969124
+s25362
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyListViewController.h
 c000000004D599C61000000000000014F
@@ -129,8 +211,8 @@ i"PartyListViewController.h"
 i"PartyDetailsViewController.h"
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyListViewController.xib
-c000000004D55631200000000000042DF
-t1297441554
+c000000004D59A71E00000000000042DF
+t1297721118
 s17119
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/Default.png
@@ -151,76 +233,112 @@ t1297441554
 s30342
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app
-t1297719816
+t1297978511
 s476
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app.dSYM
-t1297719816
+t1297975107
 s102
 
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/AddPartyGoer.nib
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/AddPartyGoerController.nib
+t1297978510
+s5120
+
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/Default.png
-t1297704503
+t1297802599
 s10247
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/Info.plist
-t1297704503
+t1297802597
 s697
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder
-t1297719816
-s29920
+t1297975107
+s50160
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/MainWindow.nib
-t1297441554
+t1297802599
 s3741
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/OrderViewController.nib
-t1297441554
+t1297802599
 s1954
 
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/PartyAttendeesViewController.nib
+t1297802600
+s1516
+
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/PartyDateView.nib
-t1297719557
-s1029
+t1297798379
+s1755
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/PartyDateViewController.nib
+t1297972041
+s3250
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/PartyDetailsViewController.nib
-t1297715405
+t1297887734
 s1891
 
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/PartyForViewController.nib
+t1297969130
+s4134
+
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/PartyListViewController.nib
-t1297441554
+t1297802599
 s1516
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/PkgInfo
-t1297704503
+t1297802597
 s8
 
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/AddPartyGoer.o
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/AddPartyGoerController.o
+t1297975107
+s38552
+
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/LootBagBuilder.LinkFileList
-c000000004D59A103000000000000038A
-t1297719555
-s906
+c000000004D5AE786000000000000055B
+t1297803142
+s1371
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/LootBagBuilderAppDelegate.o
-t1297705837
+t1297802602
 s56080
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/OrderViewController.o
-t1297700289
+t1297802602
 s34608
 
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyAttendeesViewController.o
+t1297975107
+s45524
+
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyDateViewController.o
-t1297719713
-s36216
+t1297972119
+s41732
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyDetailsViewController.o
-t1297719816
-s45552
+t1297974633
+s48112
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyForViewController.o
+t1297970297
+s43948
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyListViewController.o
-t1297718665
+t1297802602
 s44820
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/main.o
-t1297700289
+t1297802602
 s6300
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/main.m
@@ -432,7 +550,7 @@ s364
 i<UIKit/UIKit.h>
 
 N/var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch.gch
-t1297700289
+t1297802601
 s15211536
 
 N/var/folders/dN/dNcFnnGDHVCkF6iRHw0YL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-hemvpmrlauvizxgcunrynwaxirma/LootBagBuilder_Prefix.pch.gch
@@ -446,7 +564,25 @@ s1019
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies319412615#319412615#0(0"0(0#1#0"8615941280#0"0#
+lSLF07#2@18"Check dependencies319671308#319671308#0(0"0(0#1#0"8648037728#0"0#
+
+CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/AddPartyGoer.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/AddPartyGoerController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319667907.436346
+e319667907.606221
+r1
+xCompileC
+xbuild/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/AddPartyGoerController.o
+x/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m:84: warning: incomplete implementation of class 'AddPartyGoerController'
+o/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m:84: warning: method definition for '-buttonChooseIconPressed:' not found
+lSLF07#2@78"Compile /Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m319667907#319667907#0(288"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m:84: warning: incomplete implementation of class 'AddPartyGoerController'/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m:84: warning: method definition for '-buttonChooseIconPressed:' not found2(22@59"Incomplete implementation of class 'AddPartyGoerController'319667907#0#144#0(6@70"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m319667717#84#0#84#0#38"incomplete implementation of class '*'0(22@59"Method definition for '-buttonChooseIconPressed:' not found319667907#144#144#0(6@70"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m319667717#84#0#84#0#35"method definition for '*' not found0(0#0#70"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m8666954752#2149"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -include /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch -c /Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m -o /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/AddPartyGoerController.o0#
 
 CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/FirstViewController.o "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/FirstViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s318901207.833681
@@ -475,8 +611,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@107"Compile /Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/LootBagBuilderAppDelegate.m318901207#318901207#0(0"0(0#0#99"/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/LootBagBuilderAppDelegate.m8600753536#2463"    cd "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap" -iquote "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap" "-F/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/include" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources" -include /var/folders/dN/dNcFnnGDHVCkF6iRHw0YL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-hemvpmrlauvizxgcunrynwaxirma/LootBagBuilder_Prefix.pch -c "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/LootBagBuilderAppDelegate.m" -o "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/LootBagBuilderAppDelegate.o"0#
 
 CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/LootBagBuilderAppDelegate.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/LootBagBuilderAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s319398637.835254
-e319398637.951931
+s319495402.162023
+e319495402.315372
 r1
 xCompileC
 xbuild/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/LootBagBuilderAppDelegate.o
@@ -485,7 +621,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/seth/Code/Cocoa/LootBagBuilder/Classes/LootBagBuilderAppDelegate.m319398637#319398637#0(0"0(0#0#73"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/LootBagBuilderAppDelegate.m8614496512#2155"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -include /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch -c /Users/seth/Code/Cocoa/LootBagBuilder/Classes/LootBagBuilderAppDelegate.m -o /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/LootBagBuilderAppDelegate.o0#
+lSLF07#2@81"Compile /Users/seth/Code/Cocoa/LootBagBuilder/Classes/LootBagBuilderAppDelegate.m319495402#319495402#0(0"0(0#0#73"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/LootBagBuilderAppDelegate.m8620383936#2155"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -include /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch -c /Users/seth/Code/Cocoa/LootBagBuilder/Classes/LootBagBuilderAppDelegate.m -o /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/LootBagBuilderAppDelegate.o0#
 
 CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/OrderViewController.o "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/OrderViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s318902665.453536
@@ -501,8 +637,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@101"Compile /Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/OrderViewController.m318902665#318902666#0(0"0(0#0#93"/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/OrderViewController.m8616914592#2451"    cd "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap" -iquote "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap" "-F/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/include" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources" -include /var/folders/dN/dNcFnnGDHVCkF6iRHw0YL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-hemvpmrlauvizxgcunrynwaxirma/LootBagBuilder_Prefix.pch -c "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/OrderViewController.m" -o "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/OrderViewController.o"0#
 
 CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/OrderViewController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/OrderViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s319393089.286921
-e319393089.343697
+s319495402.230698
+e319495402.358479
 r1
 xCompileC
 xbuild/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/OrderViewController.o
@@ -511,11 +647,26 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/seth/Code/Cocoa/LootBagBuilder/Classes/OrderViewController.m319393089#319393089#0(0"0(0#0#67"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/OrderViewController.m8602091168#2143"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -include /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch -c /Users/seth/Code/Cocoa/LootBagBuilder/Classes/OrderViewController.m -o /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/OrderViewController.o0#
+lSLF07#2@75"Compile /Users/seth/Code/Cocoa/LootBagBuilder/Classes/OrderViewController.m319495402#319495402#0(0"0(0#0#67"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/OrderViewController.m8619422016#2143"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -include /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch -c /Users/seth/Code/Cocoa/LootBagBuilder/Classes/OrderViewController.m -o /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/OrderViewController.o0#
+
+CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyAttendeesViewController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319667907.414640
+e319667907.579446
+r1
+xCompileC
+xbuild/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyAttendeesViewController.o
+x/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m:193: warning: property 'buttonChooseIcon' requires method '-buttonChooseIcon' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m:193: warning: property 'buttonChooseIcon' requires the method 'setButtonChooseIcon:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@84"Compile /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m319667907#319667907#0(471"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m:193: warning: property 'buttonChooseIcon' requires method '-buttonChooseIcon' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m:193: warning: property 'buttonChooseIcon' requires the method 'setButtonChooseIcon:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@140"Property 'buttonChooseIcon' requires method '-buttonChooseIcon' to be defined - use @synthesize, @dynamic or provide a method implementation319667907#0#232#0(6@76"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m319667430#193#0#193#0#0"0(22@147"Property 'buttonChooseIcon' requires the method 'setButtonChooseIcon:' to be defined - use @synthesize, @dynamic or provide a method implementation319667907#232#239#0(6@76"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m319667430#193#0#193#0#0"0(0#0#76"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m8608094880#2161"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -include /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch -c /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m -o /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyAttendeesViewController.o0#
 
 CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyDateViewController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s319412512.642751
-e319412513.102953
+s319664919.387397
+e319664919.511993
 r1
 xCompileC
 xbuild/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyDateViewController.o
@@ -524,7 +675,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateViewController.m319412512#319412513#0(0"0(0#0#71"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateViewController.m8619169056#2151"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -include /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch -c /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateViewController.m -o /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyDateViewController.o0#
+lSLF07#2@79"Compile /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateViewController.m319664919#319664919#0(0"0(0#0#71"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateViewController.m8640558592#2151"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -include /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch -c /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateViewController.m -o /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyDateViewController.o0#
 
 CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyDetailsViewController.o "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/PartyDetailsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s318906096.705002
@@ -540,8 +691,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@108"Compile /Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/PartyDetailsViewController.m318906096#318906096#0(0"0(0#0#100"/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/PartyDetailsViewController.m8617376160#2465"    cd "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap" -iquote "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap" "-F/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/include" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources" -include /var/folders/dN/dNcFnnGDHVCkF6iRHw0YL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-hemvpmrlauvizxgcunrynwaxirma/LootBagBuilder_Prefix.pch -c "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/PartyDetailsViewController.m" -o "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyDetailsViewController.o"0#
 
 CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyDetailsViewController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDetailsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s319412615.934893
-e319412616.057758
+s319667433.456239
+e319667433.654994
 r1
 xCompileC
 xbuild/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyDetailsViewController.o
@@ -550,7 +701,20 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDetailsViewController.m319412615#319412616#0(0"0(0#0#74"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDetailsViewController.m8616518464#2157"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -include /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch -c /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDetailsViewController.m -o /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyDetailsViewController.o0#
+lSLF07#2@82"Compile /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDetailsViewController.m319667433#319667433#0(0"0(0#0#74"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDetailsViewController.m8640879904#2157"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -include /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch -c /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDetailsViewController.m -o /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyDetailsViewController.o0#
+
+CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyForViewController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyForViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319663097.311999
+e319663097.972553
+r1
+xCompileC
+xbuild/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyForViewController.o
+x/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyForViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyForViewController.m319663097#319663097#0(0"0(0#0#70"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyForViewController.m7306083695696439296#2149"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -include /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch -c /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyForViewController.m -o /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyForViewController.o0#
 
 CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyListViewController.o "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/PartyListViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s318906086.811098
@@ -566,8 +730,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@105"Compile /Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/PartyListViewController.m318906086#318906087#0(0"0(0#0#97"/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/PartyListViewController.m8619195232#2459"    cd "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap" -iquote "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap" "-F/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/include" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources" -include /var/folders/dN/dNcFnnGDHVCkF6iRHw0YL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-hemvpmrlauvizxgcunrynwaxirma/LootBagBuilder_Prefix.pch -c "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/PartyListViewController.m" -o "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyListViewController.o"0#
 
 CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyListViewController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyListViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s319411464.960024
-e319411465.098239
+s319495402.315467
+e319495402.461996
 r1
 xCompileC
 xbuild/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyListViewController.o
@@ -576,7 +740,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyListViewController.m319411464#319411465#0(0"0(0#0#71"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyListViewController.m8616252160#2151"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -include /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch -c /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyListViewController.m -o /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyListViewController.o0#
+lSLF07#2@79"Compile /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyListViewController.m319495402#319495402#0(0"0(0#0#71"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyListViewController.m8618498688#2151"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -include /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch -c /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyListViewController.m -o /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyListViewController.o0#
 
 CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyViewController.o "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/PartyViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s318903833.847118
@@ -605,8 +769,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@78"Compile /Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/main.m318901207#318901207#0(0"0(0#0#70"/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/main.m8602446464#2413"    cd "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap" -iquote "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap" "-F/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/include" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources" -include /var/folders/dN/dNcFnnGDHVCkF6iRHw0YL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-hemvpmrlauvizxgcunrynwaxirma/LootBagBuilder_Prefix.pch -c "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/main.m" -o "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/main.o"0#
 
 CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/main.o /Users/seth/Code/Cocoa/LootBagBuilder/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s319393089.149468
-e319393089.286835
+s319495402.150057
+e319495402.230606
 r1
 xCompileC
 xbuild/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/main.o
@@ -615,7 +779,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /Users/seth/Code/Cocoa/LootBagBuilder/main.m319393089#319393089#0(0"0(0#0#44"/Users/seth/Code/Cocoa/LootBagBuilder/main.m8603135680#2105"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -include /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch -c /Users/seth/Code/Cocoa/LootBagBuilder/main.m -o /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/main.o0#
+lSLF07#2@52"Compile /Users/seth/Code/Cocoa/LootBagBuilder/main.m319495402#319495402#0(0"0(0#0#44"/Users/seth/Code/Cocoa/LootBagBuilder/main.m8621245248#2105"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -include /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch -c /Users/seth/Code/Cocoa/LootBagBuilder/main.m -o /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/main.o0#
 
 CCompileXIB "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/OrderViewController.xib"
 s318904185.177419
@@ -676,39 +840,89 @@ xCompileXIB
 x/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/SecondView.xib
 lSLF07#2@25"CompileXIB SecondView.xib318901205#318901206#0(0"0(0#0#78"/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/SecondView.xib8602098048#720"    cd "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/SecondView.nib" "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/SecondView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
 
-CCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/OrderViewController.xib
+CCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoer.xib
 r0
 
+CCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.xib
+s319671308.207497
+e319671310.998748
+r1
+xCompileXIB
+x/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.xib
+lSLF07#2@45"CompileXIB Classes/AddPartyGoerController.xib319671308#319671310#0(0"0(0#0#72"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.xib8664571712#668"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/AddPartyGoerController.nib /Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/OrderViewController.xib
+s319495397.238614
+e319495399.035179
+r1
+xCompileXIB
+x/Users/seth/Code/Cocoa/LootBagBuilder/Classes/OrderViewController.xib
+lSLF07#2@42"CompileXIB Classes/OrderViewController.xib319495397#319495399#0(0"0(0#0#69"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/OrderViewController.xib8621088704#662"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/OrderViewController.nib /Users/seth/Code/Cocoa/LootBagBuilder/Classes/OrderViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.xib
+s319495399.836959
+e319495400.207299
+r1
+xCompileXIB
+x/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.xib
+lSLF07#2@51"CompileXIB Classes/PartyAttendeesViewController.xib319495399#319495400#0(0"0(0#0#78"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.xib8619901600#680"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/PartyAttendeesViewController.nib /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
 CCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateView.xib
-s319412355.244298
-e319412357.793200
+s319491176.358121
+e319491179.822008
 r1
 xCompileXIB
 x/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateView.xib
-lSLF07#2@36"CompileXIB Classes/PartyDateView.xib319412355#319412357#0(0"0(0#0#63"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateView.xib8614664800#650"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/PartyDateView.nib /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+lSLF07#2@36"CompileXIB Classes/PartyDateView.xib319491176#319491179#0(0"0(0#0#63"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateView.xib8618339616#650"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/PartyDateView.nib /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateViewController.xib
+s319664840.260894
+e319664841.857531
+r1
+xCompileXIB
+x/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateViewController.xib
+lSLF07#2@46"CompileXIB Classes/PartyDateViewController.xib319664840#319664841#0(0"0(0#0#73"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateViewController.xib8666840672#670"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/PartyDateViewController.nib /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
 
 CCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDetailsViewController.xib
-s319408203.736270
-e319408205.624208
+s319580531.508349
+e319580534.170933
 r1
 xCompileXIB
 x/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDetailsViewController.xib
-lSLF07#2@49"CompileXIB Classes/PartyDetailsViewController.xib319408203#319408205#0(0"0(0#0#76"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDetailsViewController.xib8613613568#676"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/PartyDetailsViewController.nib /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDetailsViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+lSLF07#2@49"CompileXIB Classes/PartyDetailsViewController.xib319580531#319580534#0(0"0(0#0#76"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDetailsViewController.xib8614862464#676"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/PartyDetailsViewController.nib /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDetailsViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyForViewController.xib
+s319661928.732503
+e319661930.355783
+r1
+xCompileXIB
+x/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyForViewController.xib
+lSLF07#2@45"CompileXIB Classes/PartyForViewController.xib319661928#319661930#0(0"0(0#0#72"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyForViewController.xib8651963104#668"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/PartyForViewController.nib /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyForViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
 
 CCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyListViewController.xib
-r0
+s319495399.035299
+e319495399.478724
+r1
+xCompileXIB
+x/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyListViewController.xib
+lSLF07#2@46"CompileXIB Classes/PartyListViewController.xib319495399#319495399#0(0"0(0#0#73"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyListViewController.xib8607948800#670"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/PartyListViewController.nib /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyListViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
 
 CCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/MainWindow.xib
-r0
+s319495397.237977
+e319495399.052307
+r1
+xCompileXIB
+x/Users/seth/Code/Cocoa/LootBagBuilder/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib319495397#319495399#0(0"0(0#0#52"/Users/seth/Code/Cocoa/LootBagBuilder/MainWindow.xib8623408160#636"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/MainWindow.nib /Users/seth/Code/Cocoa/LootBagBuilder/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
 
 CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/Default.png Default.png
-s319397303.222511
-e319397303.275559
+s319495399.443975
+e319495399.496146
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/LootBagBuilder.app/Default.png
 xDefault.png
-lSLF07#2@16"Copy Default.png319397303#319397303#0(0"0(0#0#49"/Users/seth/Code/Cocoa/LootBagBuilder/Default.png8607463872#521"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/Default.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+lSLF07#2@16"Copy Default.png319495399#319495399#0(0"0(0#0#49"/Users/seth/Code/Cocoa/LootBagBuilder/Default.png8622860288#521"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/Default.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
 
 CGenerateDSYMFile "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app.dSYM" "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder"
 s318906096.912122
@@ -720,13 +934,13 @@ x/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iph
 lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/LootBagBuilder.app.dSYM build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder318906096#318906096#0(0"0(0#0#125"/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder8616910560#547"    cd "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder" -o "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app.dSYM"0#
 
 CGenerateDSYMFile /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app.dSYM /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder
-s319412616.108470
-e319412616.211329
+s319667907.682417
+e319667907.742005
 r1
 xGenerateDSYMFile
 x/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app.dSYM
 x/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder
-lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/LootBagBuilder.app.dSYM build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder319412616#319412616#0(0"0(0#0#99"/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder8604447392#463"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder -o /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app.dSYM0#
+lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/LootBagBuilder.app.dSYM build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder319667907#319667907#0(0"0(0#0#99"/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder8665867584#463"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder -o /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app.dSYM0#
 
 CLd "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder" normal i386
 s318906096.810825
@@ -739,14 +953,14 @@ xi386
 lSLF07#2@130"Link /Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder318906096#318906096#0(0"0(0#0#0"8620684064#1132"    cd "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk "-L/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator" "-F/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator" -filelist "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/LootBagBuilder.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder"0#
 
 CLd /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder normal i386
-s319412616.057842
-e319412616.108385
+s319667907.606339
+e319667907.682320
 r1
 xLd
 x/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder
 xnormal
 xi386
-lSLF07#2@104"Link /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder319412616#319412616#0(0"0(0#0#0"8617137536#992"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -filelist /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/LootBagBuilder.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder0#
+lSLF07#2@104"Link /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder319667907#319667907#0(0"0(0#0#0"8665982272#992"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -filelist /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/LootBagBuilder.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder0#
 
 CProcessInfoPlistFile "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/Info.plist" LootBagBuilder-Info.plist
 s318901205.019914
@@ -758,17 +972,17 @@ xLootBagBuilder-Info.plist
 lSLF07#2@33"Process LootBagBuilder-Info.plist318901205#318901205#0(0"0(0#0#89"/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/LootBagBuilder-Info.plist3419204512356397056#643"    cd "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility LootBagBuilder-Info.plist -genpkginfo "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/Info.plist"0#
 
 CProcessInfoPlistFile /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/Info.plist LootBagBuilder-Info.plist
-s319397303.192376
-e319397303.222361
+s319495397.120249
+e319495397.237895
 r1
 xProcessInfoPlistFile
 x/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/Info.plist
 xLootBagBuilder-Info.plist
-lSLF07#2@33"Process LootBagBuilder-Info.plist319397303#319397303#0(0"0(0#0#63"/Users/seth/Code/Cocoa/LootBagBuilder/LootBagBuilder-Info.plist8608037536#559"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility LootBagBuilder-Info.plist -genpkginfo /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/Info.plist0#
+lSLF07#2@33"Process LootBagBuilder-Info.plist319495397#319495397#0(0"0(0#0#63"/Users/seth/Code/Cocoa/LootBagBuilder/LootBagBuilder-Info.plist8618492384#559"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility LootBagBuilder-Info.plist -genpkginfo /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/Info.plist0#
 
 CProcessPCH /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch.gch LootBagBuilder_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s319393086.201032
-e319393089.149232
+s319495400.207703
+e319495402.149877
 r1
 xProcessPCH
 x/var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch.gch
@@ -777,7 +991,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@36"Precompile LootBagBuilder_Prefix.pch319393086#319393089#0(0"0(0#0#63"/Users/seth/Code/Cocoa/LootBagBuilder/LootBagBuilder_Prefix.pch7599052958038389760#1991"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -c /Users/seth/Code/Cocoa/LootBagBuilder/LootBagBuilder_Prefix.pch -o /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch.gch0#
+lSLF07#2@36"Precompile LootBagBuilder_Prefix.pch319495400#319495402#0(0"0(0#0#63"/Users/seth/Code/Cocoa/LootBagBuilder/LootBagBuilder_Prefix.pch8619003840#1991"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -c /Users/seth/Code/Cocoa/LootBagBuilder/LootBagBuilder_Prefix.pch -o /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/dN/dNcFnnGDHVCkF6iRHw0YL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-hemvpmrlauvizxgcunrynwaxirma/LootBagBuilder_Prefix.pch.gch LootBagBuilder_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s318901206.467571
@@ -801,10 +1015,10 @@ x/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iph
 lSLF07#2@116"Touch /Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app318906096#318906096#0(0"0(0#0#0"8611437280#401"    cd "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app"0#
 
 CTouch /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app
-s319412616.211417
-e319412616.213978
+s319671311.021339
+e319671311.040627
 r1
 xTouch
 x/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app
-lSLF07#2@90"Touch /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app319412616#319412616#0(0"0(0#0#0"8615889888#345"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+lSLF07#2@90"Touch /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app319671311#319671311#0(0"0(0#0#0"8670102208#345"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
 

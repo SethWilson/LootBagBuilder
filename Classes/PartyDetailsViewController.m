@@ -8,6 +8,8 @@
 
 #import "PartyDetailsViewController.h"
 #import "PartyDateViewController.h"
+#import "PartyForViewController.h"
+#import "PartyAttendeesViewController.h"
 
 
 @implementation PartyDetailsViewController
@@ -19,7 +21,7 @@
 		[[NSBundle mainBundle] loadNibNamed:@"PartyDetailsViewController" owner: self options: nil];
 	
 		[self setPartyDetailActions:[NSArray arrayWithObjects:@"Party For: ", @"Party Date: ", @"Party Attendees: ",nil]];
-		
+		self.navigationItem.title = @"Party Details";
 	}
 	
 	
@@ -156,14 +158,19 @@
 	switch (indexPath.row) {
 		case 0: 
 			NSLog(@"Party For Pressed");
+			PartyForViewController *partyFor = [[PartyForViewController alloc] init];
+			[self.navigationController pushViewController: partyFor animated: YES];
+			[self.navigationController setTitle:@"Party For"];
 			break;
 		case 1:
 			NSLog(@"Party Date Pressed");
+			PartyDateViewController *partyDate = [[PartyDateViewController alloc] init];
+			[self.navigationController pushViewController: partyDate animated: YES];
 			break; 
 		case 2:
 			NSLog(@"Party Attendee Pressed");
-			PartyDateViewController *partyDate = [[PartyDateViewController alloc] init];
-			[self.navigationController pushViewController: partyDate animated: YES];
+			PartyAttendeesViewController *partyAttendees = [[PartyAttendeesViewController alloc] init];
+			[self.navigationController pushViewController: partyAttendees animated: YES];
 			break; 
 		default:
 			break;

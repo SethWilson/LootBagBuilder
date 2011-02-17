@@ -1,8 +1,8 @@
-    //
+//
 //  PartyDateViewController.m
 //  LootBagBuilder
 //
-//  Created by Seth Wilson on 11-02-14.
+//  Created by Seth Wilson on 11-02-15.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
@@ -10,20 +10,8 @@
 
 
 @implementation PartyDateViewController
-
-
-- (id)init {
-	self = [super init];
-	if( self != nil ) {
-		[[NSBundle mainBundle] loadNibNamed:@"PartyDateView" owner: self options: nil];
-		
-		//[self setPartyDetailActions:[NSArray arrayWithObjects:@"Party For: ", @"Party Date: ", @"Party Attendees: ",nil]];
-		
-	}
-	
-	
-	return self;
-}
+@synthesize btnDone = _btnDone;
+@synthesize datePicker = _datePicker;
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -35,13 +23,37 @@
 }
 */
 
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView {
+- (id)init {
+	self = [super init];
+	if( self != nil ) {
+		[[NSBundle mainBundle] loadNibNamed:@"PartyDateViewController" owner: self options: nil];
+		
+		//[self setPartyDetailActions:[NSArray arrayWithObjects:@"Party For: ", @"Party Date: ", @"Party Attendees: ",nil]];
+		self.navigationItem.title = @"Party Date";
+	}
+	
+	
+	return self;
 }
-*/
+
+- (IBAction)buttonDonePressed:(id)sender {
+	
+	NSLog(@"Done button on the date picker screen pressed");
+	
+	// Save the value of the date picker
+	NSDateFormatter *dateformatter = [[NSDateFormatter alloc] init];
+    [dateformatter setDateFormat:@"MMM dd, yyyy HH:mm:ss"];
+    NSLog(@"%@",[dateformatter stringFromDate:[self.datePicker date]]);
+	
+	// If all good then save a new record and kick back a screen
+	
+	[self.navigationController popViewControllerAnimated:YES];
+	
+}
 
 /*
+ 
+ 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];

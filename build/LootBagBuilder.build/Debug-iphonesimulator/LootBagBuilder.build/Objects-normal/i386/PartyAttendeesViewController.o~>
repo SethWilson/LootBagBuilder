@@ -1,0 +1,2 @@
+/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m:193: warning: property 'buttonChooseIcon' requires method '-buttonChooseIcon' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m:193: warning: property 'buttonChooseIcon' requires the method 'setButtonChooseIcon:' to be defined - use @synthesize, @dynamic or provide a method implementation
