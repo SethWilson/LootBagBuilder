@@ -1,7 +1,7 @@
 TLootBagBuilder
 v7
 r0
-t319671311.040655
+t319756475.237617
 cCheck dependencies
 cProcessInfoPlistFile /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/Info.plist LootBagBuilder-Info.plist
 cCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/MainWindow.xib
@@ -13,6 +13,62 @@ cCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateViewControlle
 cCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyForViewController.xib
 cCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.xib
 cCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.xib
+cCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerDetailController.xib
+cCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerOverviewController.xib
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1001.png icon1001.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1002.png icon1002.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1003.png icon1003.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1004.png icon1004.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1005.png icon1005.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1006.png icon1006.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1007.png icon1007.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1008.png icon1008.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1009.png icon1009.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1010.png icon1010.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1011.png icon1011.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1012.png icon1012.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1014.png icon1014.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1015.png icon1015.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1016.png icon1016.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1017.png icon1017.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1018.png icon1018.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1019.png icon1019.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1020.png icon1020.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1021.png icon1021.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1022.png icon1022.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1023.png icon1023.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1024.png icon1024.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1025.png icon1025.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1026.png icon1026.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1027.png icon1027.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1013.png icon1013.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1001.png large1001.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1002.png large1002.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1003.png large1003.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1004.png large1004.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1005.png large1005.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1006.png large1006.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1007.png large1007.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1008.png large1008.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1009.png large1009.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1010.png large1010.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1011.png large1011.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1012.png large1012.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1013.png large1013.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1014.png large1014.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1015.png large1015.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1016.png large1016.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1017.png large1017.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1018.png large1018.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1019.png large1019.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1020.png large1020.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1021.png large1021.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1022.png large1022.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1023.png large1023.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1024.png large1024.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1025.png large1025.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1026.png large1026.png
+cCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1027.png large1027.png
 cProcessPCH /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch.gch LootBagBuilder_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/main.o /Users/seth/Code/Cocoa/LootBagBuilder/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/LootBagBuilderAppDelegate.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/LootBagBuilderAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -23,6 +79,10 @@ cCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/
 cCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyForViewController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyForViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyAttendeesViewController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/AddPartyGoerController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/JPImagePickerController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/JPImagePickerDetailController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerDetailController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/JPImagePickerOverviewController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerOverviewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/UIImageResizing.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/UIImageResizing.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder normal i386
 cGenerateDSYMFile /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app.dSYM /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder
 cTouch /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app
@@ -75,21 +135,75 @@ t1297802887
 s6239
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.h
-c000000004D5D8659000000000000018C
-t1297974873
-s396
+c000000004D5EE4AC000000000000041F
+t1298064556
+s1055
 i<UIKit/UIKit.h>
+i"JPImagePickerController.h"
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m
-c000000004D5D868500000000000007A8
-t1297974917
-s1960
+c000000004D5EEC6C0000000000001172
+t1298066540
+s4466
 i"AddPartyGoerController.h"
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.xib
-c000000004D5D876C0000000000007532
-t1297975148
-s30002
+c000000004D5EDDA00000000000008819
+t1298062752
+s34841
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerController.h
+c000000004D5C41E10000000000001AD0
+t1297891809
+s6864
+i<UIKit/UIKit.h>
+i"JPImagePickerOverviewController.h"
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerController.m
+c000000004D5EC4F90000000000000BF3
+t1298056441
+s3059
+i"JPImagePickerController.h"
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerDetailController.h
+c000000004D5C41E10000000000000449
+t1297891809
+s1097
+i<UIKit/UIKit.h>
+i"JPImagePickerController.h"
+i"JPImagePickerOverviewController.h"
+i"UIImageResizing.h"
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerDetailController.m
+c000000004D5C41E10000000000000BEF
+t1297891809
+s3055
+i"JPImagePickerDetailController.h"
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerDetailController.xib
+c000000004D5EA33C00000000000059C5
+t1298047804
+s22981
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerOverviewController.h
+c000000004D5C41E10000000000000470
+t1297891809
+s1136
+i<UIKit/UIKit.h>
+i"JPImagePickerController.h"
+i"JPImagePickerDetailController.h"
+i"UIImageResizing.h"
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerOverviewController.m
+c000000004D5C41E1000000000000106C
+t1297891809
+s4204
+i"JPImagePickerOverviewController.h"
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerOverviewController.xib
+c000000004D5EC4300000000000004A91
+t1298056240
+s19089
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/LootBagBuilderAppDelegate.h
 c000000004D596B69000000000000025E
@@ -215,6 +329,18 @@ c000000004D59A71E00000000000042DF
 t1297721118
 s17119
 
+N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/UIImageResizing.h
+c000000004D5C41E10000000000000343
+t1297891809
+s835
+i<Foundation/Foundation.h>
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/Classes/UIImageResizing.m
+c000000004D5C41E10000000000000F16
+t1297891809
+s3862
+i"UIImageResizing.h"
+
 N/Users/seth/Code/Cocoa/LootBagBuilder/Default.png
 c000000004D5963150000000000002807
 t1297703701
@@ -233,11 +359,11 @@ t1297441554
 s30342
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app
-t1297978511
-s476
+t1298063675
+s2380
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app.dSYM
-t1297975107
+t1298063675
 s102
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/AddPartyGoer.nib
@@ -245,8 +371,8 @@ t2
 s0
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/AddPartyGoerController.nib
-t1297978510
-s5120
+t1298062759
+s5492
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/Default.png
 t1297802599
@@ -256,9 +382,17 @@ N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilde
 t1297802597
 s697
 
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/JPImagePickerDetailController.nib
+t1298048049
+s2321
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/JPImagePickerOverviewController.nib
+t1298056266
+s1605
+
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder
-t1297975107
-s50160
+t1298063675
+s83392
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/MainWindow.nib
 t1297802599
@@ -296,18 +430,366 @@ N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilde
 t1297802597
 s8
 
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1001-b.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1001.png
+t1298054351
+s25323
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1002-a.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1002.png
+t1298054351
+s30700
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1003-c.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1003.png
+t1298054351
+s4036
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1004-c.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1004.png
+t1298054351
+s30077
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1005-c.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1005.png
+t1298054351
+s20703
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1006-a.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1006.png
+t1298054351
+s30718
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1007-a.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1007.png
+t1298054351
+s19903
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1008-b.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1008.png
+t1298054351
+s49589
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1009-b.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1009.png
+t1298054351
+s29481
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1010-b.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1010.png
+t1298054351
+s30101
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1011-a.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1011.png
+t1298054351
+s33176
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1012-a.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1012.png
+t1298054351
+s26224
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1013.png
+t1298054351
+s17455
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1014-a.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1014.png
+t1298054351
+s21807
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1015-a.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1015.png
+t1298054351
+s19351
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1016-a.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1016.png
+t1298054351
+s19249
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1017-a.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1017.png
+t1298054351
+s27658
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1018-a.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1018.png
+t1298054351
+s28597
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1019-a.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1019.png
+t1298054351
+s4213
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1020-a.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1020.png
+t1298054351
+s28471
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1021-c.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1021.png
+t1298054351
+s28277
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1022-c.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1022.png
+t1298054351
+s19446
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1023-a.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1023.png
+t1298054351
+s28097
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1024-a.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1024.png
+t1298054351
+s24487
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1025-a.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1025.png
+t1298054351
+s18729
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1026-a.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1026.png
+t1298054351
+s25856
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1027-a.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1027.png
+t1298054351
+s28922
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1028-a.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/icon1028.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1001.png
+t1298056035
+s8868
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1002.png
+t1298056035
+s17913
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1003.png
+t1298056035
+s11551
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1004.png
+t1298056035
+s12904
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1005.png
+t1298056035
+s9044
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1006.png
+t1298056035
+s10336
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1007.png
+t1298056035
+s9271
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1008.png
+t1298056035
+s17075
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1009.png
+t1298056035
+s10243
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1010.png
+t1298056035
+s12623
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1011.png
+t1298056035
+s15115
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1012.png
+t1298056035
+s10698
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1013.png
+t1298056035
+s6665
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1014.png
+t1298056035
+s10051
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1015.png
+t1298056035
+s7530
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1016.png
+t1298056035
+s10381
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1017.png
+t1298056035
+s13796
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1018.png
+t1298056035
+s10427
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1019.png
+t1298056035
+s11904
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1020.png
+t1298056035
+s13429
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1021.png
+t1298056035
+s13399
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1022.png
+t1298056035
+s9371
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1023.png
+t1298056035
+s13049
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1024.png
+t1298056035
+s10194
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1025.png
+t1298056035
+s7602
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1026.png
+t1298056035
+s11082
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/large1027.png
+t1298056035
+s11914
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/selected.png
+t2
+s0
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/unselected.png
+t2
+s0
+
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/AddPartyGoer.o
 t2
 s0
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/AddPartyGoerController.o
-t1297975107
-s38552
+t1298063675
+s56468
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/JPImagePickerController.o
+t1298056445
+s53884
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/JPImagePickerDetailController.o
+t1298046454
+s51524
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/JPImagePickerOverviewController.o
+t1298046455
+s55440
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/LootBagBuilder.LinkFileList
-c000000004D5AE786000000000000055B
-t1297803142
-s1371
+c000000004D5E9DF200000000000007C9
+t1298046450
+s1993
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/LootBagBuilderAppDelegate.o
 t1297802602
@@ -318,8 +800,8 @@ t1297802602
 s34608
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyAttendeesViewController.o
-t1297975107
-s45524
+t1298061572
+s45768
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyDateViewController.o
 t1297972119
@@ -337,15 +819,439 @@ N/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesi
 t1297802602
 s44820
 
+N/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/UIImageResizing.o
+t1298046455
+s15660
+
 N/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/main.o
 t1297802602
 s6300
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1001-b.png
+c000000004D55B08D00000000000062EB
+t1297461389
+s25323
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1001.png
+c000000004D55B08D00000000000062EB
+t1297461389
+s25323
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1002-a.png
+c000000004D55B08D00000000000077EC
+t1297461389
+s30700
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1002.png
+c000000004D55B08D00000000000077EC
+t1297461389
+s30700
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1003-c.png
+c000000004CF812CA0000000000000FC4
+t1291326154
+s4036
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1003.png
+c000000004CF812CA0000000000000FC4
+t1291326154
+s4036
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1004-c.png
+c000000004D55B08B000000000000757D
+t1297461387
+s30077
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1004.png
+c000000004D55B08B000000000000757D
+t1297461387
+s30077
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1005-c.png
+c000000004D55B08B00000000000050DF
+t1297461387
+s20703
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1005.png
+c000000004D55B08B00000000000050DF
+t1297461387
+s20703
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1006-a.png
+c000000004D55B08B00000000000077FE
+t1297461387
+s30718
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1006.png
+c000000004D55B08B00000000000077FE
+t1297461387
+s30718
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1007-a.png
+c000000004D55B08A0000000000004DBF
+t1297461386
+s19903
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1007.png
+c000000004D55B08A0000000000004DBF
+t1297461386
+s19903
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1008-b.png
+c000000004D55B08A000000000000C1B5
+t1297461386
+s49589
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1008.png
+c000000004D55B08A000000000000C1B5
+t1297461386
+s49589
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1009-b.png
+c000000004D55B0890000000000007329
+t1297461385
+s29481
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1009.png
+c000000004D55B0890000000000007329
+t1297461385
+s29481
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1010-b.png
+c000000004D55B0880000000000007595
+t1297461384
+s30101
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1010.png
+c000000004D55B0880000000000007595
+t1297461384
+s30101
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1011-a.png
+c000000004D55B0880000000000008198
+t1297461384
+s33176
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1011.png
+c000000004D55B0880000000000008198
+t1297461384
+s33176
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1012-a.png
+c000000004D55B0880000000000006670
+t1297461384
+s26224
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1012.png
+c000000004D55B0880000000000006670
+t1297461384
+s26224
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1013.png
+c000000004D55B07E000000000000442F
+t1297461374
+s17455
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1014-a.png
+c000000004D55B087000000000000552F
+t1297461383
+s21807
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1014.png
+c000000004D55B087000000000000552F
+t1297461383
+s21807
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1015-a.png
+c000000004D55B0870000000000004B97
+t1297461383
+s19351
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1015.png
+c000000004D55B0870000000000004B97
+t1297461383
+s19351
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1016-a.png
+c000000004D55B0860000000000004B31
+t1297461382
+s19249
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1016.png
+c000000004D55B0860000000000004B31
+t1297461382
+s19249
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1017-a.png
+c000000004D55B0860000000000006C0A
+t1297461382
+s27658
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1017.png
+c000000004D55B0860000000000006C0A
+t1297461382
+s27658
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1018-a.png
+c000000004D55B0850000000000006FB5
+t1297461381
+s28597
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1018.png
+c000000004D55B0850000000000006FB5
+t1297461381
+s28597
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1019-a.png
+c000000004CF812D40000000000001075
+t1291326164
+s4213
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1019.png
+c000000004CF812D40000000000001075
+t1291326164
+s4213
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1020-a.png
+c000000004D55B0840000000000006F37
+t1297461380
+s28471
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1020.png
+c000000004D55B0840000000000006F37
+t1297461380
+s28471
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1021-c.png
+c000000004D55B0840000000000006E75
+t1297461380
+s28277
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1021.png
+c000000004D55B0840000000000006E75
+t1297461380
+s28277
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1022-c.png
+c000000004D55B0830000000000004BF6
+t1297461379
+s19446
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1022.png
+c000000004D55B0830000000000004BF6
+t1297461379
+s19446
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1023-a.png
+c000000004D55B0830000000000006DC1
+t1297461379
+s28097
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1023.png
+c000000004D55B0830000000000006DC1
+t1297461379
+s28097
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1024-a.png
+c000000004D55B0820000000000005FA7
+t1297461378
+s24487
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1024.png
+c000000004D55B0820000000000005FA7
+t1297461378
+s24487
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1025-a.png
+c000000004D55B0810000000000004929
+t1297461377
+s18729
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1025.png
+c000000004D55B0810000000000004929
+t1297461377
+s18729
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1026-a.png
+c000000004D55B0810000000000006500
+t1297461377
+s25856
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1026.png
+c000000004D55B0810000000000006500
+t1297461377
+s25856
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1027-a.png
+c000000004D55B07F00000000000070FA
+t1297461375
+s28922
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1027.png
+c000000004D55B07F00000000000070FA
+t1297461375
+s28922
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1028-a.png
+c000000004D55B07E000000000000442F
+t1297461374
+s17455
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/icon1028.png
+c000000004D55B07E000000000000442F
+t1297461374
+s17455
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1001.png
+c000000004D5EC19F00000000000022A4
+t1298055583
+s8868
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1002.png
+c000000004D5EC1A100000000000045F9
+t1298055585
+s17913
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1003.png
+c000000004D5EC1A30000000000002D1F
+t1298055587
+s11551
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1004.png
+c000000004D5EC1A50000000000003268
+t1298055589
+s12904
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1005.png
+c000000004D5EC1A60000000000002354
+t1298055590
+s9044
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1006.png
+c000000004D5EC19E0000000000002860
+t1298055582
+s10336
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1007.png
+c000000004D5EC1A00000000000002437
+t1298055584
+s9271
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1008.png
+c000000004D5EC1A200000000000042B3
+t1298055586
+s17075
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1009.png
+c000000004D5EC1A40000000000002803
+t1298055588
+s10243
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1010.png
+c000000004D5EC1A5000000000000314F
+t1298055589
+s12623
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1011.png
+c000000004D5EC1A70000000000003B0B
+t1298055591
+s15115
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1012.png
+c000000004D5EC19E00000000000029CA
+t1298055582
+s10698
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1013.png
+c000000004D5EC19D0000000000001A09
+t1298055581
+s6665
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1014.png
+c000000004D5EC1A20000000000002743
+t1298055586
+s10051
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1015.png
+c000000004D5EC1A40000000000001D6A
+t1298055588
+s7530
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1016.png
+c000000004D5EC1A6000000000000288D
+t1298055590
+s10381
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1017.png
+c000000004D5EC19D00000000000035E4
+t1298055581
+s13796
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1018.png
+c000000004D5EC1A000000000000028BB
+t1298055584
+s10427
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1019.png
+c000000004D5EC1A20000000000002E80
+t1298055586
+s11904
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1020.png
+c000000004D5EC1A30000000000003475
+t1298055587
+s13429
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1021.png
+c000000004D5EC1A50000000000003457
+t1298055589
+s13399
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1022.png
+c000000004D5EC1A7000000000000249B
+t1298055591
+s9371
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1023.png
+c000000004D5EC19E00000000000032F9
+t1298055582
+s13049
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1024.png
+c000000004D5EC1A100000000000027D2
+t1298055585
+s10194
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1025.png
+c000000004D5EC1A20000000000001DB2
+t1298055586
+s7602
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1026.png
+c000000004D5EC1A40000000000002B4A
+t1298055588
+s11082
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/large1027.png
+c000000004D5EC1A60000000000002E8A
+t1298055590
+s11914
 
 N/Users/seth/Code/Cocoa/LootBagBuilder/main.m
 c000000004D556312000000000000016C
 t1297441554
 s364
 i<UIKit/UIKit.h>
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/selected.png
+c000000004D5EE78800000000000002FD
+t1298065288
+s765
+
+N/Users/seth/Code/Cocoa/LootBagBuilder/unselected.png
+c000000004D5EE76B0000000000000147
+t1298065259
+s327
 
 N/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/FirstViewController.h
 c000000004D51D44E00000000000000F1
@@ -564,14 +1470,14 @@ s1019
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies319671308#319671308#0(0"0(0#1#0"8648037728#0"0#
+lSLF07#2@18"Check dependencies319756474#319756474#0(0"0(0#1#0"8651013600#0"0#
 
 CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/AddPartyGoer.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoer.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/AddPartyGoerController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s319667907.436346
-e319667907.606221
+s319756474.718739
+e319756475.020198
 r1
 xCompileC
 xbuild/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/AddPartyGoerController.o
@@ -580,9 +1486,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-o/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m:84: warning: incomplete implementation of class 'AddPartyGoerController'
-o/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m:84: warning: method definition for '-buttonChooseIconPressed:' not found
-lSLF07#2@78"Compile /Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m319667907#319667907#0(288"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m:84: warning: incomplete implementation of class 'AddPartyGoerController'/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m:84: warning: method definition for '-buttonChooseIconPressed:' not found2(22@59"Incomplete implementation of class 'AddPartyGoerController'319667907#0#144#0(6@70"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m319667717#84#0#84#0#38"incomplete implementation of class '*'0(22@59"Method definition for '-buttonChooseIconPressed:' not found319667907#144#144#0(6@70"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m319667717#84#0#84#0#35"method definition for '*' not found0(0#0#70"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m8666954752#2149"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -include /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch -c /Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m -o /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/AddPartyGoerController.o0#
+lSLF07#2@78"Compile /Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m319756474#319756475#0(0"0(0#0#70"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m8607367424#2149"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -include /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch -c /Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.m -o /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/AddPartyGoerController.o0#
 
 CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/FirstViewController.o "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/FirstViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s318901207.833681
@@ -596,6 +1500,45 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@101"Compile /Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/FirstViewController.m318901207#318901207#0(0"0(0#0#93"/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/FirstViewController.m8600132320#2451"    cd "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap" -iquote "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap" "-F/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/include" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources" -include /var/folders/dN/dNcFnnGDHVCkF6iRHw0YL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-hemvpmrlauvizxgcunrynwaxirma/LootBagBuilder_Prefix.pch -c "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/FirstViewController.m" -o "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/FirstViewController.o"0#
+
+CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/JPImagePickerController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319749243.116386
+e319749245.353664
+r1
+xCompileC
+xbuild/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/JPImagePickerController.o
+x/Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerController.m319749243#319749245#0(0"0(0#0#71"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerController.m8702655488#2151"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -include /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch -c /Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerController.m -o /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/JPImagePickerController.o0#
+
+CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/JPImagePickerDetailController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerDetailController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319739254.839102
+e319739255.032702
+r1
+xCompileC
+xbuild/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/JPImagePickerDetailController.o
+x/Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerDetailController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerDetailController.m319739254#319739255#0(0"0(0#0#77"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerDetailController.m8645698432#2163"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -include /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch -c /Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerDetailController.m -o /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/JPImagePickerDetailController.o0#
+
+CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/JPImagePickerOverviewController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerOverviewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319739255.032967
+e319739255.470367
+r1
+xCompileC
+xbuild/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/JPImagePickerOverviewController.o
+x/Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerOverviewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerOverviewController.m319739255#319739255#0(0"0(0#0#79"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerOverviewController.m8641976352#2167"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -include /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch -c /Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerOverviewController.m -o /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/JPImagePickerOverviewController.o0#
 
 CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/LootBagBuilderAppDelegate.o "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/LootBagBuilderAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s318901207.730376
@@ -650,8 +1593,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@75"Compile /Users/seth/Code/Cocoa/LootBagBuilder/Classes/OrderViewController.m319495402#319495402#0(0"0(0#0#67"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/OrderViewController.m8619422016#2143"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -include /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch -c /Users/seth/Code/Cocoa/LootBagBuilder/Classes/OrderViewController.m -o /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/OrderViewController.o0#
 
 CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyAttendeesViewController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s319667907.414640
-e319667907.579446
+s319754371.549919
+e319754372.076651
 r1
 xCompileC
 xbuild/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyAttendeesViewController.o
@@ -662,7 +1605,7 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m:193: warning: property 'buttonChooseIcon' requires method '-buttonChooseIcon' to be defined - use @synthesize, @dynamic or provide a method implementation
 o/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m:193: warning: property 'buttonChooseIcon' requires the method 'setButtonChooseIcon:' to be defined - use @synthesize, @dynamic or provide a method implementation
-lSLF07#2@84"Compile /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m319667907#319667907#0(471"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m:193: warning: property 'buttonChooseIcon' requires method '-buttonChooseIcon' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m:193: warning: property 'buttonChooseIcon' requires the method 'setButtonChooseIcon:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@140"Property 'buttonChooseIcon' requires method '-buttonChooseIcon' to be defined - use @synthesize, @dynamic or provide a method implementation319667907#0#232#0(6@76"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m319667430#193#0#193#0#0"0(22@147"Property 'buttonChooseIcon' requires the method 'setButtonChooseIcon:' to be defined - use @synthesize, @dynamic or provide a method implementation319667907#232#239#0(6@76"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m319667430#193#0#193#0#0"0(0#0#76"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m8608094880#2161"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -include /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch -c /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m -o /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyAttendeesViewController.o0#
+lSLF07#2@84"Compile /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m319754371#319754372#0(471"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m:193: warning: property 'buttonChooseIcon' requires method '-buttonChooseIcon' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m:193: warning: property 'buttonChooseIcon' requires the method 'setButtonChooseIcon:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@140"Property 'buttonChooseIcon' requires method '-buttonChooseIcon' to be defined - use @synthesize, @dynamic or provide a method implementation319754371#0#232#0(6@76"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m319667430#193#0#193#0#0"0(22@147"Property 'buttonChooseIcon' requires the method 'setButtonChooseIcon:' to be defined - use @synthesize, @dynamic or provide a method implementation319754371#232#239#0(6@76"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m319667430#193#0#193#0#0"0(0#0#76"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m8668873792#2161"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -include /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch -c /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyAttendeesViewController.m -o /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyAttendeesViewController.o0#
 
 CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyDateViewController.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/PartyDateViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s319664919.387397
@@ -755,6 +1698,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@101"Compile /Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/PartyViewController.m318903833#318903833#0(0"0(0#0#93"/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/PartyViewController.m8617062816#2451"    cd "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap" -iquote "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap" "-F/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/include" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386" "-I/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources" -include /var/folders/dN/dNcFnnGDHVCkF6iRHw0YL++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-hemvpmrlauvizxgcunrynwaxirma/LootBagBuilder_Prefix.pch -c "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/Classes/PartyViewController.m" -o "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/PartyViewController.o"0#
 
+CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/UIImageResizing.o /Users/seth/Code/Cocoa/LootBagBuilder/Classes/UIImageResizing.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319739255.033937
+e319739255.535298
+r1
+xCompileC
+xbuild/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/UIImageResizing.o
+x/Users/seth/Code/Cocoa/LootBagBuilder/Classes/UIImageResizing.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/seth/Code/Cocoa/LootBagBuilder/Classes/UIImageResizing.m319739255#319739255#0(0"0(0#0#63"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/UIImageResizing.m8666651872#2135"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-generated-files.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-own-target-headers.hmap -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-all-target-headers.hmap -iquote /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/LootBagBuilder-project-headers.hmap -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -I/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/include -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources/i386 -I/Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/DerivedSources -include /var/folders/KM/KM82X+NXHbCS6YajhGeePU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LootBagBuilder_Prefix-fpvphaiqqdycxbchooresmasijec/LootBagBuilder_Prefix.pch -c /Users/seth/Code/Cocoa/LootBagBuilder/Classes/UIImageResizing.m -o /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/UIImageResizing.o0#
+
 CCompileC build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/main.o "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s318901207.728532
 e318901207.833568
@@ -844,12 +1800,28 @@ CCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoer.xib
 r0
 
 CCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.xib
-s319671308.207497
-e319671310.998748
+s319755557.915236
+e319755560.123167
 r1
 xCompileXIB
 x/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.xib
-lSLF07#2@45"CompileXIB Classes/AddPartyGoerController.xib319671308#319671310#0(0"0(0#0#72"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.xib8664571712#668"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/AddPartyGoerController.nib /Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+lSLF07#2@45"CompileXIB Classes/AddPartyGoerController.xib319755557#319755560#0(0"0(0#0#72"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.xib8669106400#668"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/AddPartyGoerController.nib /Users/seth/Code/Cocoa/LootBagBuilder/Classes/AddPartyGoerController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerDetailController.xib
+s319740847.273417
+e319740849.841655
+r1
+xCompileXIB
+x/Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerDetailController.xib
+lSLF07#2@52"CompileXIB Classes/JPImagePickerDetailController.xib319740847#319740849#0(0"0(0#0#79"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerDetailController.xib8665773664#682"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/JPImagePickerDetailController.nib /Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerDetailController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerOverviewController.xib
+s319749065.010849
+e319749066.854616
+r1
+xCompileXIB
+x/Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerOverviewController.xib
+lSLF07#2@54"CompileXIB Classes/JPImagePickerOverviewController.xib319749065#319749066#0(0"0(0#0#81"/Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerOverviewController.xib8662978720#686"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/JPImagePickerOverviewController.nib /Users/seth/Code/Cocoa/LootBagBuilder/Classes/JPImagePickerOverviewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
 
 CCompileXIB /Users/seth/Code/Cocoa/LootBagBuilder/Classes/OrderViewController.xib
 s319495397.238614
@@ -924,6 +1896,582 @@ xbuild/Debug-iphonesimulator/LootBagBuilder.app/Default.png
 xDefault.png
 lSLF07#2@16"Copy Default.png319495399#319495399#0(0"0(0#0#49"/Users/seth/Code/Cocoa/LootBagBuilder/Default.png8622860288#521"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/Default.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
 
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1001-b.png icon1001-b.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1001.png icon1001.png
+s319747151.496617
+e319747151.634898
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1001.png
+xicon1001.png
+lSLF07#2@17"Copy icon1001.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1001.png8668996096#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1001.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1002-a.png icon1002-a.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1002.png icon1002.png
+s319747151.509135
+e319747151.668830
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1002.png
+xicon1002.png
+lSLF07#2@17"Copy icon1002.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1002.png8668850688#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1002.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1003-c.png icon1003-c.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1003.png icon1003.png
+s319747151.510884
+e319747151.668923
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1003.png
+xicon1003.png
+lSLF07#2@17"Copy icon1003.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1003.png8667501664#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1003.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1004-c.png icon1004-c.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1004.png icon1004.png
+s319747151.513255
+e319747151.637647
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1004.png
+xicon1004.png
+lSLF07#2@17"Copy icon1004.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1004.png8666800512#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1004.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1005-c.png icon1005-c.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1005.png icon1005.png
+s319747151.514892
+e319747151.669110
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1005.png
+xicon1005.png
+lSLF07#2@17"Copy icon1005.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1005.png8666309952#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1005.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1006-a.png icon1006-a.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1006.png icon1006.png
+s319747151.518369
+e319747151.637795
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1006.png
+xicon1006.png
+lSLF07#2@17"Copy icon1006.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1006.png8665735456#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1006.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1007-a.png icon1007-a.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1007.png icon1007.png
+s319747151.519915
+e319747151.671009
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1007.png
+xicon1007.png
+lSLF07#2@17"Copy icon1007.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1007.png8665345312#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1007.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1008-b.png icon1008-b.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1008.png icon1008.png
+s319747151.521125
+e319747151.637892
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1008.png
+xicon1008.png
+lSLF07#2@17"Copy icon1008.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1008.png8665041504#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1008.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1009-b.png icon1009-b.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1009.png icon1009.png
+s319747151.522392
+e319747151.637989
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1009.png
+xicon1009.png
+lSLF07#2@17"Copy icon1009.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1009.png8664651264#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1009.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1010-b.png icon1010-b.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1010.png icon1010.png
+s319747151.524873
+e319747151.671220
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1010.png
+xicon1010.png
+lSLF07#2@17"Copy icon1010.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1010.png8663280704#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1010.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1011-a.png icon1011-a.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1011.png icon1011.png
+s319747151.638052
+e319747151.668724
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1011.png
+xicon1011.png
+lSLF07#2@17"Copy icon1011.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1011.png8670975616#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1011.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1012-a.png icon1012-a.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1012.png icon1012.png
+s319747151.638999
+e319747151.669017
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1012.png
+xicon1012.png
+lSLF07#2@17"Copy icon1012.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1012.png8670635168#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1012.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1013.png icon1013.png
+s319747151.739611
+e319747151.750837
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1013.png
+xicon1013.png
+lSLF07#2@17"Copy icon1013.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1013.png8662138464#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1013.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1014-a.png icon1014-a.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1014.png icon1014.png
+s319747151.643794
+e319747151.670904
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1014.png
+xicon1014.png
+lSLF07#2@17"Copy icon1014.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1014.png8670433888#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1014.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1015-a.png icon1015-a.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1015.png icon1015.png
+s319747151.647530
+e319747151.737995
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1015.png
+xicon1015.png
+lSLF07#2@17"Copy icon1015.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1015.png8670195712#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1015.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1016-a.png icon1016-a.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1016.png icon1016.png
+s319747151.667096
+e319747151.738086
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1016.png
+xicon1016.png
+lSLF07#2@17"Copy icon1016.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1016.png8668858176#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1016.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1017-a.png icon1017-a.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1017.png icon1017.png
+s319747151.671287
+e319747151.737509
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1017.png
+xicon1017.png
+lSLF07#2@17"Copy icon1017.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1017.png8646133920#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1017.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1018-a.png icon1018-a.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1018.png icon1018.png
+s319747151.675597
+e319747151.737614
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1018.png
+xicon1018.png
+lSLF07#2@17"Copy icon1018.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1018.png8661751296#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1018.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1019-a.png icon1019-a.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1019.png icon1019.png
+s319747151.707711
+e319747151.737714
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1019.png
+xicon1019.png
+lSLF07#2@17"Copy icon1019.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1019.png8647856992#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1019.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1020-a.png icon1020-a.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1020.png icon1020.png
+s319747151.719030
+e319747151.737810
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1020.png
+xicon1020.png
+lSLF07#2@17"Copy icon1020.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1020.png8645550848#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1020.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1021-c.png icon1021-c.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1021.png icon1021.png
+s319747151.719663
+e319747151.737902
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1021.png
+xicon1021.png
+lSLF07#2@17"Copy icon1021.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1021.png8617306944#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1021.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1022-c.png icon1022-c.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1022.png icon1022.png
+s319747151.722813
+e319747151.740271
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1022.png
+xicon1022.png
+lSLF07#2@17"Copy icon1022.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1022.png8647112800#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1022.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1023-a.png icon1023-a.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1023.png icon1023.png
+s319747151.736361
+e319747151.751226
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1023.png
+xicon1023.png
+lSLF07#2@17"Copy icon1023.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1023.png8590426976#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1023.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1024-a.png icon1024-a.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1024.png icon1024.png
+s319747151.736924
+e319747151.751398
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1024.png
+xicon1024.png
+lSLF07#2@17"Copy icon1024.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1024.png8703556384#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1024.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1025-a.png icon1025-a.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1025.png icon1025.png
+s319747151.738139
+e319747151.749756
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1025.png
+xicon1025.png
+lSLF07#2@17"Copy icon1025.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1025.png8648100224#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1025.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1026-a.png icon1026-a.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1026.png icon1026.png
+s319747151.738632
+e319747151.750525
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1026.png
+xicon1026.png
+lSLF07#2@17"Copy icon1026.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1026.png8662995744#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1026.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1027-a.png icon1027-a.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1027.png icon1027.png
+s319747151.739115
+e319747151.751553
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/icon1027.png
+xicon1027.png
+lSLF07#2@17"Copy icon1027.png319747151#319747151#0(0"0(0#0#50"/Users/seth/Code/Cocoa/LootBagBuilder/icon1027.png8621365472#522"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/icon1027.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1028-a.png icon1028-a.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/icon1028.png icon1028.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1001.png large1001.png
+s319748834.996600
+e319748835.109430
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1001.png
+xlarge1001.png
+lSLF07#2@18"Copy large1001.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1001.png8665748672#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1001.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1002.png large1002.png
+s319748835.042846
+e319748835.090397
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1002.png
+xlarge1002.png
+lSLF07#2@18"Copy large1002.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1002.png8665246656#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1002.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1003.png large1003.png
+s319748835.043423
+e319748835.109638
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1003.png
+xlarge1003.png
+lSLF07#2@18"Copy large1003.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1003.png8664831456#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1003.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1004.png large1004.png
+s319748835.043922
+e319748835.090514
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1004.png
+xlarge1004.png
+lSLF07#2@18"Copy large1004.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1004.png8663103232#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1004.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1005.png large1005.png
+s319748835.044440
+e319748835.091017
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1005.png
+xlarge1005.png
+lSLF07#2@18"Copy large1005.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1005.png8662802496#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1005.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1006.png large1006.png
+s319748835.045052
+e319748835.091115
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1006.png
+xlarge1006.png
+lSLF07#2@18"Copy large1006.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1006.png8661912128#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1006.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1007.png large1007.png
+s319748835.045654
+e319748835.110033
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1007.png
+xlarge1007.png
+lSLF07#2@18"Copy large1007.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1007.png8661416576#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1007.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1008.png large1008.png
+s319748835.048135
+e319748835.110130
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1008.png
+xlarge1008.png
+lSLF07#2@18"Copy large1008.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1008.png8660121856#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1008.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1009.png large1009.png
+s319748835.050619
+e319748835.091710
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1009.png
+xlarge1009.png
+lSLF07#2@18"Copy large1009.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1009.png8659864064#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1009.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1010.png large1010.png
+s319748835.051889
+e319748835.091881
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1010.png
+xlarge1010.png
+lSLF07#2@18"Copy large1010.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1010.png8659643840#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1010.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1011.png large1011.png
+s319748835.091993
+e319748835.109541
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1011.png
+xlarge1011.png
+lSLF07#2@18"Copy large1011.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1011.png8718207552#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1011.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1012.png large1012.png
+s319748835.092955
+e319748835.109736
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1012.png
+xlarge1012.png
+lSLF07#2@18"Copy large1012.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1012.png8717274624#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1012.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1013.png large1013.png
+s319748835.096426
+e319748835.150320
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1013.png
+xlarge1013.png
+lSLF07#2@18"Copy large1013.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1013.png8717143872#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1013.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1014.png large1014.png
+s319748835.096985
+e319748835.109936
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1014.png
+xlarge1014.png
+lSLF07#2@18"Copy large1014.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1014.png8716858336#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1014.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1015.png large1015.png
+s319748835.097468
+e319748835.110262
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1015.png
+xlarge1015.png
+lSLF07#2@18"Copy large1015.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1015.png8702960768#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1015.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1016.png large1016.png
+s319748835.097951
+e319748835.110378
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1016.png
+xlarge1016.png
+lSLF07#2@18"Copy large1016.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1016.png8702911008#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1016.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1017.png large1017.png
+s319748835.110548
+e319748835.149936
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1017.png
+xlarge1017.png
+lSLF07#2@18"Copy large1017.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1017.png8702782816#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1017.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1018.png large1018.png
+s319748835.111182
+e319748835.150039
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1018.png
+xlarge1018.png
+lSLF07#2@18"Copy large1018.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1018.png8702196960#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1018.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1019.png large1019.png
+s319748835.117718
+e319748835.150132
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1019.png
+xlarge1019.png
+lSLF07#2@18"Copy large1019.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1019.png8691132352#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1019.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1020.png large1020.png
+s319748835.118830
+e319748835.150226
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1020.png
+xlarge1020.png
+lSLF07#2@18"Copy large1020.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1020.png8691025376#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1020.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1021.png large1021.png
+s319748835.122507
+e319748835.150412
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1021.png
+xlarge1021.png
+lSLF07#2@18"Copy large1021.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1021.png8671141504#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1021.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1022.png large1022.png
+s319748835.123227
+e319748835.150506
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1022.png
+xlarge1022.png
+lSLF07#2@18"Copy large1022.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1022.png8670866240#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1022.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1023.png large1023.png
+s319748835.126766
+e319748835.150602
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1023.png
+xlarge1023.png
+lSLF07#2@18"Copy large1023.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1023.png8670558144#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1023.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1024.png large1024.png
+s319748835.146999
+e319748835.157204
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1024.png
+xlarge1024.png
+lSLF07#2@18"Copy large1024.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1024.png8669239328#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1024.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1025.png large1025.png
+s319748835.147836
+e319748835.157312
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1025.png
+xlarge1025.png
+lSLF07#2@18"Copy large1025.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1025.png8665965024#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1025.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1026.png large1026.png
+s319748835.150660
+e319748835.156974
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1026.png
+xlarge1026.png
+lSLF07#2@18"Copy large1026.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1026.png8665345312#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1026.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/large1027.png large1027.png
+s319748835.153203
+e319748835.157093
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LootBagBuilder.app/large1027.png
+xlarge1027.png
+lSLF07#2@18"Copy large1027.png319748835#319748835#0(0"0(0#0#51"/Users/seth/Code/Cocoa/LootBagBuilder/large1027.png8664530656#523"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/seth/Code/Cocoa/LootBagBuilder/large1027.png /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/selected.png selected.png
+r0
+
+CCpResource build/Debug-iphonesimulator/LootBagBuilder.app/unselected.png unselected.png
+r0
+
 CGenerateDSYMFile "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app.dSYM" "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder"
 s318906096.912122
 e318906096.937237
@@ -934,13 +2482,13 @@ x/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iph
 lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/LootBagBuilder.app.dSYM build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder318906096#318906096#0(0"0(0#0#125"/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder8616910560#547"    cd "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder" -o "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app.dSYM"0#
 
 CGenerateDSYMFile /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app.dSYM /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder
-s319667907.682417
-e319667907.742005
+s319756475.095647
+e319756475.234780
 r1
 xGenerateDSYMFile
 x/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app.dSYM
 x/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder
-lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/LootBagBuilder.app.dSYM build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder319667907#319667907#0(0"0(0#0#99"/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder8665867584#463"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder -o /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app.dSYM0#
+lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/LootBagBuilder.app.dSYM build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder319756475#319756475#0(0"0(0#0#99"/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder8609676608#463"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder -o /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app.dSYM0#
 
 CLd "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder" normal i386
 s318906096.810825
@@ -953,14 +2501,14 @@ xi386
 lSLF07#2@130"Link /Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder318906096#318906096#0(0"0(0#0#0"8620684064#1132"    cd "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk "-L/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator" "-F/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator" -filelist "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/LootBagBuilder.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder"0#
 
 CLd /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder normal i386
-s319667907.606339
-e319667907.682320
+s319756475.020307
+e319756475.095526
 r1
 xLd
 x/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder
 xnormal
 xi386
-lSLF07#2@104"Link /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder319667907#319667907#0(0"0(0#0#0"8665982272#992"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -filelist /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/LootBagBuilder.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder0#
+lSLF07#2@104"Link /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder319756475#319756475#0(0"0(0#0#0"8634122304#992"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -F/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator -filelist /Users/seth/Code/Cocoa/LootBagBuilder/build/LootBagBuilder.build/Debug-iphonesimulator/LootBagBuilder.build/Objects-normal/i386/LootBagBuilder.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/LootBagBuilder0#
 
 CProcessInfoPlistFile "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app/Info.plist" LootBagBuilder-Info.plist
 s318901205.019914
@@ -1015,10 +2563,10 @@ x/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iph
 lSLF07#2@116"Touch /Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app318906096#318906096#0(0"0(0#0#0"8611437280#401"    cd "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c "/Users/sethwilson/Desktop/iOS Boot Camp/Projects/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app"0#
 
 CTouch /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app
-s319671311.021339
-e319671311.040627
+s319756475.234859
+e319756475.237575
 r1
 xTouch
 x/Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app
-lSLF07#2@90"Touch /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app319671311#319671311#0(0"0(0#0#0"8670102208#345"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
+lSLF07#2@90"Touch /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app319756475#319756475#0(0"0(0#0#0"8608171840#345"    cd /Users/seth/Code/Cocoa/LootBagBuilder    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/seth/Code/Cocoa/LootBagBuilder/build/Debug-iphonesimulator/LootBagBuilder.app0#
 
