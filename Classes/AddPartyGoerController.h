@@ -13,10 +13,15 @@
 
 	UIButton *_buttonChooseIcon;
 	NSInteger chosenImage;
+	UITextField *_labelName;
+	BOOL buttonRSVPSelected;
+	BOOL buttonAttendingSelected;
+	IBOutlet UIButton *_buttonRSVP;
+	IBOutlet UIButton *_buttonAttending;
+	IBOutlet UIWebView *_webPreview;
 	IBOutlet UIViewController *chosenImageController;
 	IBOutlet UIImageView *chosenImageView;
-	UITextField *_labelName;
-	IBOutlet UIWebView *_webPreview;
+	
 }
 
 
@@ -25,10 +30,12 @@
 @property (nonatomic, retain) IBOutlet UIImageView *chosenImageView;
 @property (nonatomic, retain) IBOutlet UITextField *labelName;
 @property (nonatomic, retain) IBOutlet UIWebView *webPreview;
+@property (nonatomic, retain) IBOutlet UIButton *buttonRSVP;
+@property (nonatomic, retain) IBOutlet UIButton *buttonAttending;
 
 - (IBAction)buttonChooseIconPressed:(id)sender ;
 - (IBAction)backgroundTouched:(id)sender ;
-- (IBAction)checkboxButton:(id)sender{
+- (IBAction)checkboxButton:(id)sender;
 
 @end
 

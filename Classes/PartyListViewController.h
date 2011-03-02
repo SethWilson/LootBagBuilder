@@ -7,14 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Party.h"
 
 @interface PartyListViewController : UITableViewController {
 
-	NSArray *tmpPartyList;
-	
+
+	NSMutableArray *partyList;
+
+	NSManagedObjectContext *managedObjectContext;  
+
 	
 }
 
-@property (nonatomic, retain) NSArray *tmpPartyList;
+@property (nonatomic, retain) NSMutableArray *partyList;
+@property (nonatomic, retain) NSManagedObjectContext *managedObjectContext; 
+
+
+- (void) fetchParties;  
+- (void) addParty;
+
+
 @end

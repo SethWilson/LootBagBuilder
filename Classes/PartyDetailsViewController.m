@@ -96,7 +96,7 @@
 	cell.textLabel.text = [partyDetailActions objectAtIndex:indexPath.row]; 
     
     // Configure the cell...
-    
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
 

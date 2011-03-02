@@ -7,18 +7,19 @@
 //
 
 #import "PartyAttendeesViewController.h"
-#import "AddPartyGoerController.h"
+#import "PartyAttendeeDetailsViewController.h"
 
 @implementation PartyAttendeesViewController
 @synthesize tmpPartyAttendees = _tmpPartyAttendees;
-
+@synthesize buttonChooseIcon = _buttonChooseIcon;
 
 
 - (void)addAttendee {
 	NSLog(@"add a attendee");
-	AddPartyGoerController *partyGoer = [[AddPartyGoerController alloc] init];
+	PartyAttendeeDetailsViewController *partyGoerDetails = [[PartyAttendeeDetailsViewController alloc] init];
 	//	partyDetails.party = [[Party alloc] init];
-	[self.navigationController pushViewController: partyGoer animated: YES];
+	[self.navigationController pushViewController: partyGoerDetails animated: YES];
+	[partyGoerDetails release];
 }
 
 - (id)init {
@@ -110,6 +111,7 @@
     
     // Configure the cell...
     cell.textLabel.text = [self.tmpPartyAttendees objectAtIndex:indexPath.row ];
+	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
 
@@ -166,6 +168,11 @@
 	 [self.navigationController pushViewController:detailViewController animated:YES];
 	 [detailViewController release];
 	 */
+	PartyAttendeeDetailsViewController *partyGoerDetails = [[PartyAttendeeDetailsViewController alloc] init];
+	//	partyDetails.party = [[Party alloc] init];
+	[self.navigationController pushViewController: partyGoerDetails animated: YES];
+	[partyGoerDetails release];
+	
 }
 
 

@@ -8,38 +8,101 @@
 
 #import "PartyListViewController.h"
 #import "PartyDetailsViewController.h"
+#import "Party.h"
+#import "LootBagBuilderAppDelegate.h"
 
 @implementation PartyListViewController
-@synthesize tmpPartyList;
+@synthesize partyList;
+@synthesize managedObjectContext;
 
 #pragma mark -
 #pragma mark View lifecycle
 
 
-- (void)addPressed {
-	NSLog(@"add something");
-	PartyDetailsViewController *partyDetails = [[PartyDetailsViewController alloc] init];
+- (void)addParty {
+	NSLog(@"adding a party");
+	
+	Party *party = (Party *)[NSEntityDescription insertNewObjectForEntityForName:@"Party" inManagedObjectContext:managedObjectContext];
+	[party setPartyDate: [NSDate date]]; 
+	[party setPartyFor:@"Seth"]; 
+	[party setBeenOrdered:NO];
+	
+	NSError *error;
+	if(![managedObjectContext save:&error]){  
+		NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
+        //This is a serious error saying the record  
+        //could not be saved. Advise the user to  
+        //try again or restart the application.   
+		
+    }  
+	
+    [partyList insertObject:party atIndex:0];  
+	
+    [self.tableView reloadData]; 
+	
+	
+	//PartyDetailsViewController *partyDetails = [[PartyDetailsViewController alloc] init];
 //	partyDetails.party = [[Party alloc] init];
-	[self.navigationController pushViewController: partyDetails animated: YES];
+	//[self.navigationController pushViewController: partyDetails animated: YES];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-	UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem: UIBarButtonSystemItemAdd target: self action: @selector(addPressed)];
+	UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem: UIBarButtonSystemItemAdd target: self action: @selector(addParty)];
 	self.navigationItem.rightBarButtonItem = addButton;
 	[addButton release]; 
 	
-	[self setTmpPartyList:[NSArray arrayWithObjects:@"Aidan", @"Carter", @"Trish",@"Seth",nil]];
+
+	LootBagBuilderAppDelegate *appDelegate = (LootBagBuilderAppDelegate *)[[UIApplication sharedApplication] delegate];
+
+	[self setManagedObjectContext:appDelegate.managedObjectContext];
+	//[self setTmpPartyList:[NSArray arrayWithObjects:@"Aidan", @"Carter", @"Trish",@"Seth",nil]];
+	[self fetchParties];
 
 }
 
-/*
+- (void)fetchParties {   
+
+    // Define our table/entity to use  
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Party" inManagedObjectContext:managedObjectContext];   
+	
+    // Setup the fetch request  
+    NSFetchRequest *request = [[NSFetchRequest alloc] init];  
+    [request setEntity:entity];   
+
+    // Define how we will sort the records  
+    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"partyDate" ascending:NO];  
+    NSArray *sortDescriptors = [NSArray arrayWithObject:sortDescriptor];  
+    [request setSortDescriptors:sortDescriptors];  
+    [sortDescriptor release];   
+	
+    // Fetch the records and handle an error  
+    NSError *error;  
+    NSMutableArray *mutableFetchResults = [[managedObjectContext executeFetchRequest:request error:&error] mutableCopy];   
+	
+    if (!mutableFetchResults) {  
+        // Handle the error.  
+        // This is a serious error and should advise the user to restart the application  
+    }   
+	
+    // Save our fetched data to an array  
+    [self setPartyList:mutableFetchResults];  
+    [mutableFetchResults release];  
+    [request release];  
+}   
+
+
+
 - (void)viewWillAppear:(BOOL)animated {
+	
+	
     [super viewWillAppear:animated];
+	
+	[self fetchParties];
 }
-*/
+
 /*
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
@@ -83,7 +146,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return [self.tmpPartyList count];
+    return [self.partyList count];
 }
 
 
@@ -97,10 +160,12 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellEditingStyleDelete reuseIdentifier:CellIdentifier] autorelease];
     }
 	
-	cell.textLabel.text = [self.tmpPartyList objectAtIndex:indexPath.row ];
+	Party *party = [partyList objectAtIndex:[indexPath row]];
+	
+	cell.textLabel.text = [party partyFor];
     
     // Configure the cell...
-    
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
 
@@ -161,7 +226,15 @@
 	 [self.navigationController pushViewController:detailViewController animated:YES];
 	 [detailViewController release];
 	 */
+	
+	
+	PartyDetailsViewController *partyDetails = [[PartyDetailsViewController alloc] init];
+	[self.navigationController pushViewController: partyDetails animated: YES];
+	
 }
+
+
+
 
 
 #pragma mark -
@@ -181,6 +254,7 @@
 
 
 - (void)dealloc {
+
     [super dealloc];
 }
 

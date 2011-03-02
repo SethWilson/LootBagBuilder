@@ -14,6 +14,8 @@
 @synthesize chosenImageView, chosenImageController;
 @synthesize labelName = _labelName;
 @synthesize webPreview = _webPreview;
+@synthesize buttonRSVP = _buttonRSVP;
+@synthesize buttonAttending = _buttonAttending;
 
 #define THUMBNAIL_SIZE 80
 #define IMAGE_WIDTH 320
@@ -26,7 +28,14 @@
 		[[NSBundle mainBundle] loadNibNamed:@"AddPartyGoerController" owner: self options: nil];
 		self.navigationItem.title = @"Add an Attendee";
 		//[self setPartyDetailActions:[NSArray arrayWithObjects:@"Party For: ", @"Party Date: ", @"Party Attendees: ",nil]];
+		buttonRSVPSelected = NO;
+		buttonAttendingSelected = NO;
 		
+		NSString *urlAddress = @"http://preview.mabel.ca/preview.aspx?m=lol%20loot%20bag&t0=&i=1002&c=&s=175&l=enUS&v=a";
+		NSURL *url = [NSURL URLWithString:urlAddress];
+		NSURLRequest *requestObject = [NSURLRequest requestWithURL:url];
+		
+		[self.webPreview loadRequest:requestObject];
 	}
 	
 	
@@ -89,9 +98,22 @@
 	[self.navigationController dismissModalViewControllerAnimated:YES];
 	if (chosenImage != -1) {
 		//cell.imageView.image = [[UIImage imageNamed:[NSString stringWithFormat:@"icon10%02i.png", imageNumber + 1]] scaleToSize:CGSizeMake(THUMBNAIL_SIZE, THUMBNAIL_SIZE) onlyIfNeeded:YES];
-		[self.buttonChooseIcon setImage:[UIImage imageNamed:[NSString stringWithFormat:@"icon10%02i.png", imageNumber + 1]] forState:UIControlStateNormal];
+		[self.buttonChooseIcon setImage:[UIImage imageNamed:[NSString stringWithFormat:@"icon10%02i.png", chosenImage + 1]] forState:UIControlStateNormal];
+		
+		//update Preview
+		NSString *firstPart = @"http://preview.mabel.ca/preview.aspx?m=lol%20loot%20bag&t0="; //stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding];
+		NSString *lastPart = @"&c=&s=175&l=enUS&v=a";
+		
+		NSString *urlAddress = [NSString stringWithFormat:@"%@&i=10%02i%@", firstPart, chosenImage + 1, lastPart];
+		
+		NSLog(@"%@",urlAddress);
+		
+		NSURL *url = [NSURL URLWithString:urlAddress];
+		NSURLRequest *requestObject = [NSURLRequest requestWithURL:url];
+		
+		[self.webPreview loadRequest:requestObject];
 	}
-	
+	 
 }
 
 # pragma mark JPImagePickerControllerDataSource
@@ -122,9 +144,29 @@
 
 - (BOOL)textFieldShouldReturn:(UITextField *)aTextField {
 	
-	if (aTextField == self.labelName)
+	if (aTextField == self.labelName) {
+		
 		[self.labelName resignFirstResponder];
+		
+		if (chosenImage != -1) {
+			//update Preview
+			NSString *firstPart = @"http://preview.mabel.ca/preview.aspx?m=lol%20loot%20bag&t0="; //stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding];
+			NSString *lastPart = @"&c=&s=175&l=enUS&v=a";
+			
+			
+			NSString *name = self.labelName.text;
+			
+			NSString *urlAddress = [NSString stringWithFormat:@"%@%@&i=10%02i%@", firstPart, name, chosenImage + 1, lastPart];
+			
+			NSLog(@"%@",urlAddress);
+			
+			NSURL *url = [NSURL URLWithString:urlAddress];
+			NSURLRequest *requestObject = [NSURLRequest requestWithURL:url];
+			
+			[self.webPreview loadRequest:requestObject];
+		}
 	
+	}
 	return YES;
 }
 
@@ -135,13 +177,27 @@
 
 
 - (IBAction)checkboxButton:(id)sender{
-	if (checkboxSelected == 0){
-		[checkboxButton setSelected:YES];
-		checkboxSelected = 1;
-	} else {
-		[checkboxButton setSelected:NO];
-		checkboxSelected = 0;
+	
+	if (sender == self.buttonRSVP) {
+		if (buttonRSVPSelected == 0){
+			[self.buttonRSVP setSelected:YES];
+			buttonRSVPSelected = 1;
+		} else {
+			[self.buttonRSVP setSelected:NO];
+			buttonRSVPSelected = 0;
+		}
 	}
+	
+	if (sender == self.buttonAttending) {
+		if (buttonAttendingSelected == 0){
+			[self.buttonAttending setSelected:YES];
+			buttonAttendingSelected = 1;
+		} else {
+			[self.buttonAttending setSelected:NO];
+			buttonAttendingSelected = 0;
+		}
+	}
+	
 }
 
 
