@@ -38,7 +38,11 @@
 
 
 
-@property (nonatomic, retain) NSString *iconChoice;
+@property (nonatomic, retain) NSNumber *iconChoice;
+
+@property short iconChoiceValue;
+- (short)iconChoiceValue;
+- (void)setIconChoiceValue:(short)value_;
 
 //- (BOOL)validateIconChoice:(id*)value_ error:(NSError**)error_;
 
@@ -80,8 +84,11 @@
 - (void)setPrimitiveAttendingPartyValue:(BOOL)value_;
 
 
-- (NSString*)primitiveIconChoice;
-- (void)setPrimitiveIconChoice:(NSString*)value;
+- (NSNumber*)primitiveIconChoice;
+- (void)setPrimitiveIconChoice:(NSNumber*)value;
+
+- (short)primitiveIconChoiceValue;
+- (void)setPrimitiveIconChoiceValue:(short)value_;
 
 
 - (NSNumber*)primitiveRsvpReceived;

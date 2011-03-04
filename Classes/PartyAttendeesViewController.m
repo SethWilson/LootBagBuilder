@@ -39,6 +39,20 @@
 	return self;
 }
 
+- (id)initWithParty:(Party *) aParty {
+	self = [super init];
+	if( self != nil ) {
+		[[NSBundle mainBundle] loadNibNamed:@"PartyAttendeesViewController" owner: self options: nil];
+		UIBarButtonItem *addAttendeeButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem: UIBarButtonSystemItemAdd target: self action: @selector(addAttendee)];
+		self.navigationItem.rightBarButtonItem = addAttendeeButton;
+		self.navigationItem.title = @"Attendees";
+		
+		
+		[self setParty:aParty];
+	}
+	
+}
+
 #pragma mark -
 #pragma mark View lifecycle
 

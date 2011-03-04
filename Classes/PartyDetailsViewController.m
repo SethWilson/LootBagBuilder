@@ -14,6 +14,7 @@
 
 @implementation PartyDetailsViewController
 @synthesize partyDetailActions;
+@synthesize party = _party;
 
 - (id)init {
 	self = [super init];
@@ -27,6 +28,22 @@
 	
 	return self;
 }
+
+
+- (id)initWithParty:(Party *)aParty {
+	self = [super init];
+	if( self != nil ) {
+		[[NSBundle mainBundle] loadNibNamed:@"PartyDetailsViewController" owner: self options: nil];
+		
+		[self setPartyDetailActions:[NSArray arrayWithObjects:@"Party For: ", @"Party Date: ", @"Party Attendees: ",nil]];
+		self.navigationItem.title = @"Party Details";
+		self.party = aParty;
+		
+		
+	}
+	return self;
+}
+
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -46,10 +63,17 @@
  
  */
 - (void)viewDidLoad {
+	NSLog(@"Party Details Loaded");
     [super viewDidLoad];
-	
+
 
 }
+- (void)viewWillAppear:(BOOL)animated {
+
+    [super viewWillAppear:animated];
+	[[self tableView] reloadData];
+}
+
 
 
 /*
@@ -90,11 +114,24 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier] autorelease];
     }
 	
 	cell.textLabel.text = [partyDetailActions objectAtIndex:indexPath.row]; 
-    
+	
+	switch (indexPath.row) {
+		case 0:
+			cell.detailTextLabel.text = [[self party] partyFor];
+			break;
+		case 1:
+			cell.detailTextLabel.text = [[self party] partyDate];
+			break;
+		case 2:
+			cell.detailTextLabel.text = @"";
+			break;
+		default:
+			break;
+	}
     // Configure the cell...
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
@@ -158,13 +195,13 @@
 	switch (indexPath.row) {
 		case 0: 
 			NSLog(@"Party For Pressed");
-			PartyForViewController *partyFor = [[PartyForViewController alloc] init];
+			PartyForViewController *partyFor = [[PartyForViewController alloc] initWithParty:[self party]];
 			[self.navigationController pushViewController: partyFor animated: YES];
 			[self.navigationController setTitle:@"Party For"];
 			break;
 		case 1:
 			NSLog(@"Party Date Pressed");
-			PartyDateViewController *partyDate = [[PartyDateViewController alloc] init];
+			PartyDateViewController *partyDate = [[PartyDateViewController alloc] initWithParty:[self party]];
 			[self.navigationController pushViewController: partyDate animated: YES];
 			break; 
 		case 2:

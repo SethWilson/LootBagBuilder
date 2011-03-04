@@ -12,6 +12,8 @@
 @implementation PartyDateViewController
 @synthesize btnDone = _btnDone;
 @synthesize datePicker = _datePicker;
+@synthesize party = _party;
+@synthesize managedObjectContext;
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -30,10 +32,67 @@
 		
 		//[self setPartyDetailActions:[NSArray arrayWithObjects:@"Party For: ", @"Party Date: ", @"Party Attendees: ",nil]];
 		self.navigationItem.title = @"Party Date";
+		
+		NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+		[dateFormatter setDateFormat:@"yyyy-MM-dd"];
+		 
+		NSDate *dateFromString = [[NSDate alloc] init];
+		dateFromString = [dateFormatter dateFromString:@"2011-04-14"];
+		
+		self.datePicker.date = dateFromString;
+		
+		//[dateFormatter release];
+		//[dateFromString release];
 	}
+
 	
 	
 	return self;
+}
+
+
+- (id)initWithParty:(Party *)aParty {
+	self = [super init];
+	if( self != nil ) {
+		[[NSBundle mainBundle] loadNibNamed:@"PartyDateViewController" owner: self options: nil];
+		
+		self.navigationItem.title = @"Party Date";
+		
+
+		[self setParty:aParty];
+		
+		NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+		[dateFormatter setDateFormat:@"yyyy-MM-dd"];
+		
+		NSDate *dateFromString = [[NSDate alloc] init];
+
+		if ([aParty partyDate] == nil)
+			
+			self.datePicker.date = [NSDate date];
+			
+		else {
+			
+			dateFromString = [dateFormatter dateFromString:[aParty partyDate]];
+			self.datePicker.date = dateFromString;
+
+		}
+				
+		
+		
+		LootBagBuilderAppDelegate *appDelegate = (LootBagBuilderAppDelegate *)[[UIApplication sharedApplication] delegate];
+		
+		[self setManagedObjectContext:appDelegate.managedObjectContext];
+		
+	  //[dateFormatter release];
+	  //[dateFromString release];
+
+	}
+	
+	NSLog(@"%@", self.party.attendees);
+	
+	return self;	
+
+	
 }
 
 - (IBAction)buttonDonePressed:(id)sender {
@@ -42,10 +101,27 @@
 	
 	// Save the value of the date picker
 	NSDateFormatter *dateformatter = [[NSDateFormatter alloc] init];
-    [dateformatter setDateFormat:@"MMM dd, yyyy HH:mm:ss"];
-    NSLog(@"%@",[dateformatter stringFromDate:[self.datePicker date]]);
+    [dateformatter setDateFormat:@"yyyy-MM-dd"];
+	
+
+	
+	self.party.partyDate = [dateformatter stringFromDate:[self.datePicker date]];
+	NSLog(@"%@", [dateformatter stringFromDate:[self.datePicker date]]);
+	
+	NSLog(@"%@", self.party.partyDate);
 	
 	// If all good then save a new record and kick back a screen
+	
+	NSError *error;
+	
+	
+	if(![[self managedObjectContext] save:&error]){  
+		NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
+        //This is a serious error saying the record  
+        //could not be saved. Advise the user to  
+        //try again or restart the application.   
+		
+    }  
 	
 	[self.navigationController popViewControllerAnimated:YES];
 	

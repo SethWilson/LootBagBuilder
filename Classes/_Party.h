@@ -21,7 +21,7 @@
 
 
 
-@property (nonatomic, retain) NSDate *partyDate;
+@property (nonatomic, retain) NSString *partyDate;
 
 //- (BOOL)validatePartyDate:(id*)value_ error:(NSError**)error_;
 
@@ -44,8 +44,8 @@
 
 
 
-@property (nonatomic, retain) Attendee* hasAttendees;
-//- (BOOL)validateHasAttendees:(id*)value_ error:(NSError**)error_;
+@property (nonatomic, retain) NSSet* attendees;
+- (NSMutableSet*)attendeesSet;
 
 
 
@@ -54,12 +54,17 @@
 
 @interface _Party (CoreDataGeneratedAccessors)
 
+- (void)addAttendees:(NSSet*)value_;
+- (void)removeAttendees:(NSSet*)value_;
+- (void)addAttendeesObject:(Attendee*)value_;
+- (void)removeAttendeesObject:(Attendee*)value_;
+
 @end
 
 @interface _Party (CoreDataGeneratedPrimitiveAccessors)
 
-- (NSDate*)primitivePartyDate;
-- (void)setPrimitivePartyDate:(NSDate*)value;
+- (NSString*)primitivePartyDate;
+- (void)setPrimitivePartyDate:(NSString*)value;
 
 
 - (NSString*)primitivePartyFor;
@@ -75,8 +80,8 @@
 
 
 
-- (Attendee*)primitiveHasAttendees;
-- (void)setPrimitiveHasAttendees:(Attendee*)value;
+- (NSMutableSet*)primitiveAttendees;
+- (void)setPrimitiveAttendees:(NSMutableSet*)value;
 
 
 @end

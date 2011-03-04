@@ -69,8 +69,15 @@
 
 
 
-@dynamic hasAttendees;
+@dynamic attendees;
 
+	
+- (NSMutableSet*)attendeesSet {
+	[self willAccessValueForKey:@"attendees"];
+	NSMutableSet *result = [self mutableSetValueForKey:@"attendees"];
+	[self didAccessValueForKey:@"attendees"];
+	return result;
+}
 	
 
 

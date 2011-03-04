@@ -27,7 +27,7 @@
 	splashView.image = [UIImage imageNamed:@"Default.png"];
 	[window addSubview:splashView];
 	[window bringSubviewToFront:splashView];
-	[self performSelector:@selector(removeSplash) withObject:nil afterDelay:1.5];
+	[self performSelector:@selector(removeSplash) withObject:nil afterDelay:2.5];
 	
 	// Add the tab bar controller's view to the window and display.
     [window addSubview:tabBarController.view];

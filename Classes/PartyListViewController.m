@@ -10,6 +10,7 @@
 #import "PartyDetailsViewController.h"
 #import "Party.h"
 #import "LootBagBuilderAppDelegate.h"
+#import "Attendee.h"
 
 @implementation PartyListViewController
 @synthesize partyList;
@@ -22,13 +23,38 @@
 - (void)addParty {
 	NSLog(@"adding a party");
 	
-	Party *party = (Party *)[NSEntityDescription insertNewObjectForEntityForName:@"Party" inManagedObjectContext:managedObjectContext];
-	[party setPartyDate: [NSDate date]]; 
-	[party setPartyFor:@"Seth"]; 
-	[party setBeenOrdered:NO];
+	//Party *party = (Party *)[NSEntityDescription insertNewObjectForEntityForName:@"Party" inManagedObjectContext:managedObjectContext];
+	
+	Party *party = [Party insertInManagedObjectContext:self.managedObjectContext];
+	
+	
+	/*
+	NSDate *today = [NSDate date];
+	NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+	[dateFormat setDateFormat:@"yyyy-MM-dd"];
+	NSString *dateString = [dateFormat stringFromDate:today];
+	NSLog(@"date: %@", dateString);
+	*/
+	Attendee *attendee = [Attendee insertInManagedObjectContext:self.managedObjectContext];;
+	
+	attendee.iconChoice = [NSNumber numberWithInt:1005];
+	attendee.name = @"Aidan";
+	attendee.attendingParty = [NSNumber numberWithBool:NO];
+	attendee.rsvpReceived = [NSNumber numberWithBool:NO];
+	
+	// Create a placeholder object
+	NSSet *attendees;
+	attendees = [NSSet setWithObjects:attendee, nil];
+	[party setPartyDate: nil]; 
+	[party setPartyFor:nil]; 
+	[party setBeenOrdered:[NSNumber numberWithBool:YES]];
+	[party setAttendees:attendees];
+	
 	
 	NSError *error;
-	if(![managedObjectContext save:&error]){  
+	
+	
+	if(![[self managedObjectContext] save:&error]){  
 		NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
         //This is a serious error saying the record  
         //could not be saved. Advise the user to  
@@ -36,14 +62,15 @@
 		
     }  
 	
-    [partyList insertObject:party atIndex:0];  
+	
+    [[self partyList] insertObject:party atIndex:0];  
 	
     [self.tableView reloadData]; 
 	
 	
-	//PartyDetailsViewController *partyDetails = [[PartyDetailsViewController alloc] init];
+	PartyDetailsViewController *partyDetails = [[PartyDetailsViewController alloc] initWithParty:party];
 //	partyDetails.party = [[Party alloc] init];
-	//[self.navigationController pushViewController: partyDetails animated: YES];
+	[self.navigationController pushViewController: partyDetails animated: YES];
 }
 
 - (void)viewDidLoad {
@@ -99,8 +126,9 @@
 	
 	
     [super viewWillAppear:animated];
-	
 	[self fetchParties];
+
+	[[self tableView] reloadData];
 }
 
 /*
@@ -157,12 +185,13 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellEditingStyleDelete reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier] autorelease];
     }
 	
 	Party *party = [partyList objectAtIndex:[indexPath row]];
 	
 	cell.textLabel.text = [party partyFor];
+	cell.detailTextLabel.text = [party partyDate];
     
     // Configure the cell...
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
@@ -228,7 +257,7 @@
 	 */
 	
 	
-	PartyDetailsViewController *partyDetails = [[PartyDetailsViewController alloc] init];
+	PartyDetailsViewController *partyDetails = [[PartyDetailsViewController alloc] initWithParty:[self.partyList objectAtIndex:indexPath.row ]];
 	[self.navigationController pushViewController: partyDetails animated: YES];
 	
 }

@@ -66,6 +66,25 @@
 
 
 
+- (short)iconChoiceValue {
+	NSNumber *result = [self iconChoice];
+	return [result shortValue];
+}
+
+- (void)setIconChoiceValue:(short)value_ {
+	[self setIconChoice:[NSNumber numberWithShort:value_]];
+}
+
+- (short)primitiveIconChoiceValue {
+	NSNumber *result = [self primitiveIconChoice];
+	return [result shortValue];
+}
+
+- (void)setPrimitiveIconChoiceValue:(short)value_ {
+	[self setPrimitiveIconChoice:[NSNumber numberWithShort:value_]];
+}
+
+
 
 
 

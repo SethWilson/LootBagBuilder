@@ -7,14 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Party.h"
 
-
-@interface PartyDetailsViewController : UIViewController {
+@interface PartyDetailsViewController : UITableViewController {
 	NSArray *partyDetailActions;
-	
+	Party	*_party;
 	
 }
 
 @property (nonatomic, retain) NSArray *partyDetailActions;
+@property (nonatomic, retain) Party *party;
+
+- (id)initWithParty:(Party *)aParty;
 
 @end

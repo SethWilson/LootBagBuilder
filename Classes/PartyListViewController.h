@@ -13,7 +13,6 @@
 
 
 	NSMutableArray *partyList;
-
 	NSManagedObjectContext *managedObjectContext;  
 
 	
