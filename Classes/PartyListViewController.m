@@ -35,20 +35,17 @@
 	NSString *dateString = [dateFormat stringFromDate:today];
 	NSLog(@"date: %@", dateString);
 	*/
+		
 	Attendee *attendee = [Attendee insertInManagedObjectContext:self.managedObjectContext];;
 	
-	attendee.iconChoice = [NSNumber numberWithInt:1005];
+	attendee.iconChoiceValue = 1005;
 	attendee.name = @"Aidan";
-	attendee.attendingParty = [NSNumber numberWithBool:NO];
-	attendee.rsvpReceived = [NSNumber numberWithBool:NO];
-	
-	// Create a placeholder object
-	NSSet *attendees;
-	attendees = [NSSet setWithObjects:attendee, nil];
-	[party setPartyDate: nil]; 
-	[party setPartyFor:nil]; 
-	[party setBeenOrdered:[NSNumber numberWithBool:YES]];
-	[party setAttendees:attendees];
+	attendee.attendingPartyValue = NO;
+	attendee.rsvpReceivedValue = NO;
+
+	attendee.goingToParty = party;
+	[party addAttendeesObject:attendee];
+
 	
 	
 	NSError *error;

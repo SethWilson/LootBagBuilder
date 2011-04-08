@@ -21,7 +21,25 @@
 #define IMAGE_WIDTH 320
 #define IMAGE_HEIGHT 400
 
-
+/*
+ 
+ Attendee *attendee = [Attendee insertInManagedObjectContext:self.managedObjectContext];;
+ 
+ attendee.iconChoice = [NSNumber numberWithInt:1005];
+ attendee.name = @"Aidan";
+ attendee.attendingParty = [NSNumber numberWithBool:NO];
+ attendee.rsvpReceived = [NSNumber numberWithBool:NO];
+ 
+ // Create a placeholder object
+ NSSet *attendees;
+ attendees = [NSSet setWithObjects:attendee, nil];
+ [party setPartyDate: nil]; 
+ [party setPartyFor:nil]; 
+ [party setBeenOrdered:[NSNumber numberWithBool:YES]];
+ [party setAttendees:attendees];
+ 
+ 
+ */
 - (id)init {
 	self = [super init];
 	if( self != nil ) {

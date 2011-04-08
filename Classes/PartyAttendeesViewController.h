@@ -13,7 +13,8 @@
 
 
 @interface PartyAttendeesViewController : UITableViewController {
-	NSArray *_tmpPartyAttendees;
+	NSMutableArray *_tmpPartyAttendees;
+	//NSMutableSet *_tmpPartyAttendees;
 	UIButton *_buttonChooseIcon;
 	Party *_party;
 	NSManagedObjectContext *managedObjectContext;  
@@ -21,8 +22,9 @@
 }
 
 @property (nonatomic, retain) NSManagedObjectContext *managedObjectContext; 
-@property (nonatomic, retain) NSArray *tmpPartyAttendees;
+@property (nonatomic, retain) NSMutableArray *tmpPartyAttendees;
 @property (nonatomic, retain) UIButton *buttonChooseIcon;
+@property (nonatomic, retain) Party *party;
 
 - (void) addAttendee;
 - (id)initWithParty:(Party *)aParty;

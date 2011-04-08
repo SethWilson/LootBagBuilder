@@ -206,7 +206,7 @@
 			break; 
 		case 2:
 			NSLog(@"Party Attendee Pressed");
-			PartyAttendeesViewController *partyAttendees = [[PartyAttendeesViewController alloc] init];
+			PartyAttendeesViewController *partyAttendees = [[PartyAttendeesViewController alloc] initWithParty:[self party]];
 			[self.navigationController pushViewController: partyAttendees animated: YES];
 			break; 
 		default:

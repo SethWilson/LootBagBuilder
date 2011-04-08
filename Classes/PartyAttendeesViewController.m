@@ -12,6 +12,7 @@
 @implementation PartyAttendeesViewController
 @synthesize tmpPartyAttendees = _tmpPartyAttendees;
 @synthesize buttonChooseIcon = _buttonChooseIcon;
+@synthesize party = _party;
 
 
 - (void)addAttendee {
@@ -47,10 +48,16 @@
 		self.navigationItem.rightBarButtonItem = addAttendeeButton;
 		self.navigationItem.title = @"Attendees";
 		
-		
+		//NSLog(@"word category count %lu",[wordCategory count]);
+	if ([aParty.attendeesSet isKindOfClass:[NSSet class]]) {
+		NSLog(@"Is a Set");
+	}	
+
+		NSLog(@"The Party Object's Attendees = %@", aParty.attendeesSet);
+		[self setTmpPartyAttendees: [[set aParty.attendeesSet] mutableCopy ]];
 		[self setParty:aParty];
 	}
-	
+	return self;	
 }
 
 #pragma mark -
