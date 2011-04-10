@@ -26,6 +26,25 @@
 	return (AttendeeID*)[super objectID];
 }
 
++ (NSSet *)keyPathsForValuesAffectingValueForKey:(NSString *)key {
+	NSSet *keyPaths = [super keyPathsForValuesAffectingValueForKey:key];
+	
+	if ([key isEqualToString:@"attendingPartyValue"]) {
+		NSSet *affectingKey = [NSSet setWithObject:@"attendingParty"];
+		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
+	}
+	if ([key isEqualToString:@"iconChoiceValue"]) {
+		NSSet *affectingKey = [NSSet setWithObject:@"iconChoice"];
+		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
+	}
+	if ([key isEqualToString:@"rsvpReceivedValue"]) {
+		NSSet *affectingKey = [NSSet setWithObject:@"rsvpReceived"];
+		keyPaths = [keyPaths setByAddingObjectsFromSet:affectingKey];
+	}
+
+	return keyPaths;
+}
+
 
 
 

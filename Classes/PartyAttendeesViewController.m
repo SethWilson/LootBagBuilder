@@ -54,7 +54,7 @@
 	}	
 
 		NSLog(@"The Party Object's Attendees = %@", aParty.attendeesSet);
-		[self setTmpPartyAttendees: [[set aParty.attendeesSet] mutableCopy ]];
+		//		[self setTmpPartyAttendees: [[set aParty.attendeesSet] mutableCopy ]];
 		[self setParty:aParty];
 	}
 	return self;	
